@@ -1,0 +1,438 @@
+
+##### articulation_points_bridges
+  3237bc9e 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"articulation_point_count": 1, "bridge_count": 1, "articulation_points": [{"id": "m1", "label": "Member 1 (instructor)"}], "bridges": [[{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m12", "label": "Member 12"}]]}, "summary
+  8f0a9ac4 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"articulation_points": [{"id": "m1", "label": "Member 1 (instructor)"}], "bridges": [{"source": {"id": "m1", "label": "Member 1 (instructor)"}, "target": {"id": "m12", "label": "Member 12"}}], "total_articulation_points": 1, "total_
+  f6f61ae0 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"articulation_points": [{"id": "m1", "label": "Member 1 (instructor)"}], "bridges": [{"source": {"id": "m1", "label": "Member 1 (instructor)"}, "target": {"id": "m12", "label": "Member 12"}}], "articulation_point_count": 1, "bridge_
+
+##### betweenness_centrality
+  2f7893e5 0.004 {'top_k': ('integer', 10, None), 'normalized': ('boolean', True, None), 'weighted': ('boolean', False, None), 'node': ('string', None, None)} req= []
+     {"status": "ok", "result": [{"id": "m1", "label": "Member 1 (instructor)", "score": 0.437635, "rank": 1}, {"id": "m34", "label": "Member 34 (administrator)", "score": 0.304075, "rank": 2}, {"id": "m33", "label": "Member 33", "score": 0.145247, "rank": 3}, {"id
+  7b0e9b7e 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"id": "m1", "label": "Member 1 (instructor)", "betweenness": 0.437635}, {"id": "m34", "label": "Member 34 (administrator)", "betweenness": 0.304075}, {"id": "m33", "label": "Member 33", "betweenness": 0.145247}, {"id": "m3", "label
+  98eff80e 0.0 {'top_k': ('integer', 10, None), 'normalized': ('boolean', True, None), 'weighted': ('boolean', False, None), 'endpoints': ('boolean', False, None)} req= []
+     {"status": "ok", "result": [{"id": "m1", "label": "Member 1 (instructor)", "score": 0.437635}, {"id": "m34", "label": "Member 34 (administrator)", "score": 0.304075}, {"id": "m33", "label": "Member 33", "score": 0.145247}, {"id": "m3", "label": "Member 3", "sc
+  c1fb2ea9 0.0 {'top_k': ('integer', 10, None), 'normalized': ('boolean', True, None)} req= []
+     {"status": "ok", "result": [{"id": "m1", "label": "Member 1 (instructor)", "score": 0.437635}, {"id": "m34", "label": "Member 34 (administrator)", "score": 0.304075}, {"id": "m33", "label": "Member 33", "score": 0.145247}, {"id": "m3", "label": "Member 3", "sc
+  d69742a9 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"id": "m1", "label": "Member 1 (instructor)", "score": 0.437635}, {"id": "m34", "label": "Member 34 (administrator)", "score": 0.304075}, {"id": "m33", "label": "Member 33", "score": 0.145247}, {"id": "m3", "label": "Member 3", "sc
+  f6f61ae0 0.006 {'top_k': ('integer', 10, None), 'normalized': ('boolean', True, None), 'weighted': ('boolean', False, None)} req= []
+     {"status": "ok", "result": [{"id": "m1", "label": "Member 1 (instructor)", "score": 0.437635}, {"id": "m34", "label": "Member 34 (administrator)", "score": 0.304075}, {"id": "m33", "label": "Member 33", "score": 0.145247}, {"id": "m3", "label": "Member 3", "sc
+  f897d4c5 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"id": "m1", "label": "Member 1 (instructor)", "centrality": 0.437635}, {"id": "m34", "label": "Member 34 (administrator)", "centrality": 0.304075}, {"id": "m33", "label": "Member 33", "centrality": 0.145247}, {"id": "m3", "label": 
+  fcd76f91 0.0 {'top_k': ('integer', 10, None), 'node': ('string', None, None), 'weighted': ('boolean', False, None), 'normalized': ('boolean', True, None)} req= []
+     {"status": "ok", "result": [{"id": "m1", "label": "Member 1 (instructor)", "score": 0.437635, "rank": 1}, {"id": "m34", "label": "Member 34 (administrator)", "score": 0.304075, "rank": 2}, {"id": "m33", "label": "Member 33", "score": 0.145247, "rank": 3}, {"id
+
+##### bipartite_check
+  3c8c3c69 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"is_bipartite": true, "components": 2, "sides": [{"side": "A", "size": 16, "graph_id": "projects~1", "nodes": [{"id": "S01", "label": "Student 01"}, {"id": "S02", "label": "Student 02"}, {"id": "S03", "label": "Student 03"}, {"id": 
+  62a230f4 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"is_bipartite": true, "left": {"name": "left", "size": 17, "nodes": [{"id": "P08", "label": "Project 08"}, {"id": "S01", "label": "Student 01"}, {"id": "S02", "label": "Student 02"}, {"id": "S03", "label": "Student 03"}, {"id": "S04
+  6e31812a 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"is_bipartite": true, "components": 2, "edges": 28, "sides": [{"side": "A", "size": 10, "graph_id": "projects~1", "sample": [{"id": "P01", "label": "Project 01"}, {"id": "P02", "label": "Project 02"}, {"id": "P03", "label": "Project
+  7780ae37 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"is_bipartite": true, "components": 2, "sides": [{"side": "side_a", "size": 10, "graph_id": "projects~1", "nodes": [{"id": "P01", "label": "Project 01"}, {"id": "P02", "label": "Project 02"}, {"id": "P03", "label": "Project 03"}, {"
+
+##### bipartite_matching
+  3f28ff34 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"left_side": "project", "right_side": "student", "left_count": 10, "right_count": 16, "matching_size": 9, "pairs": [{"left": {"id": "P01", "label": "Project 01"}, "right": {"id": "S05", "label": "Student 05"}}, {"left": {"id": "P02"
+  54d073a3 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"matching_size": 9, "is_perfect_matching": false, "left_size": 10, "right_size": 16, "num_unmatched": 8, "pairs": [{"left": {"id": "P01", "label": "Project 01"}, "right": {"id": "S05", "label": "Student 05"}}, {"left": {"id": "P02",
+  8809b513 0.0 {} req= []
+     {"status": "ok", "result": {"matching_size": 9, "matching": [{"student": {"id": "S01", "label": "Student 01"}, "project": {"id": "P03", "label": "Project 03"}}, {"student": {"id": "S02", "label": "Student 02"}, "project": {"id": "P02", "label": "Project 02"}},
+  8f0a9ac4 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"matches": [{"left": {"id": "P01", "label": "Project 01"}, "right": {"id": "S05", "label": "Student 05"}}, {"left": {"id": "P02", "label": "Project 02"}, "right": {"id": "S02", "label": "Student 02"}}, {"left": {"id": "P03", "label"
+  c52598eb 0.0 {} req= []
+     {"status": "ok", "result": [{"left": {"id": "S01", "label": "Student 01"}, "right": {"id": "P03", "label": "Project 03"}}, {"left": {"id": "S02", "label": "Student 02"}, "right": {"id": "P02", "label": "Project 02"}}, {"left": {"id": "S03", "label": "Student 0
+  d02c8330 0.0 {'side_attribute': ('string', 'side', None), 'left_side': ('string', None, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"matching_size": 9, "left_side": "project", "right_side": "student", "left_size": 10, "right_size": 16, "perfect": false, "pairs": [{"left": {"id": "P01", "label": "Project 01"}, "right": {"id": "S05", "label": "Student 05"}}, {"lef
+  e2346c64 0.0 {'top_k': ('integer', 100, None)} req= []
+     {"status": "ok", "result": {"matching_size": 9, "left_side": "project", "right_side": "student", "left_count": 10, "right_count": 16, "max_possible": 10, "perfect": false, "pairs": [{"project": {"id": "P01", "label": "Project 01"}, "student": {"id": "S05", "la
+  f9857550 0.0 {'top_k': ('integer', 10, None), 'side_attribute': ('string', None, None), 'left_value': ('string', None, None)} req= []
+     {"status": "ok", "result": {"matching_size": 9, "left_side_size": 10, "right_side_size": 16, "unmatched_left": 1, "unmatched_right": 7, "is_perfect": false, "pairs": [{"left": {"id": "P01", "label": "Project 01"}, "right": {"id": "S05", "label": "Student 05"}}
+
+##### closeness_centrality
+  64036f4f 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"id": "m1", "label": "Member 1 (instructor)", "score": 0.568966}, {"id": "m3", "label": "Member 3", "score": 0.559322}, {"id": "m34", "label": "Member 34 (administrator)", "score": 0.55}, {"id": "m32", "label": "Member 32", "score"
+  7065a2b5 0.0 {'top_k': ('integer', 10, None), 'node': ('string', None, None), 'weighted': ('boolean', False, None), 'direction': ('string', 'incoming', ['incoming', 'outgoing'])} req= []
+     {"status": "ok", "result": [{"id": "m1", "label": "Member 1 (instructor)", "score": 0.568966}, {"id": "m3", "label": "Member 3", "score": 0.559322}, {"id": "m34", "label": "Member 34 (administrator)", "score": 0.55}, {"id": "m32", "label": "Member 32", "score"
+  7b0e9b7e 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"id": "m1", "label": "Member 1 (instructor)", "closeness": 0.568966, "average_distance": 1.757576}, {"id": "m3", "label": "Member 3", "closeness": 0.559322, "average_distance": 1.787879}, {"id": "m34", "label": "Member 34 (administ
+  7cc0c2d7 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"id": "m1", "label": "Member 1 (instructor)", "score": 0.568966}, {"id": "m3", "label": "Member 3", "score": 0.559322}, {"id": "m34", "label": "Member 34 (administrator)", "score": 0.55}, {"id": "m32", "label": "Member 32", "score"
+  afc500fb 0.0 {'node': ('string', None, None)} req= ['node']
+     {"status": "ok", "result": {"id": "m1", "label": "Member 1 (instructor)", "score": 0.568966, "reachable_nodes": 33}, "summary": "Closeness centrality of Member 1 (instructor) (m1) is 0.568966. It can be reached from 33 other nodes.", "result_graph_id": null, "
+
+##### clustering_coefficient
+  219c8a12 0.002 {'node': ('string', None, None), 'top_k': ('integer', 10, None), 'min_degree': ('integer', 2, None)} req= []
+     {"status": "ok", "result": [{"id": "m13", "label": "Member 13", "score": 1.0, "degree": 2, "triangles": 1}, {"id": "m15", "label": "Member 15", "score": 1.0, "degree": 2, "triangles": 1}, {"id": "m16", "label": "Member 16", "score": 1.0, "degree": 2, "triangle
+  3ddaa37e 0.002 {'top_k': ('integer', 10, None), 'node': ('string', None, None)} req= []
+     {"status": "ok", "result": {"nodes": [{"id": "m13", "label": "Member 13", "coefficient": 1.0}, {"id": "m15", "label": "Member 15", "coefficient": 1.0}, {"id": "m16", "label": "Member 16", "coefficient": 1.0}, {"id": "m17", "label": "Member 17", "coefficient": 
+  6ae0e02c 0.0 {'node': ('string', None, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"average_clustering": 0.570638, "graph_type": "undirected", "nodes": [{"id": "m13", "label": "Member 13", "clustering": 1.0, "degree": 2}, {"id": "m15", "label": "Member 15", "clustering": 1.0, "degree": 2}, {"id": "m16", "label": "
+  7065a2b5 0.0 {'top_k': ('integer', 10, None), 'node': ('string', None, None), 'weighted': ('boolean', False, None)} req= []
+     {"status": "ok", "result": [{"id": "m13", "label": "Member 13", "score": 1.0}, {"id": "m15", "label": "Member 15", "score": 1.0}, {"id": "m16", "label": "Member 16", "score": 1.0}, {"id": "m17", "label": "Member 17", "score": 1.0}, {"id": "m18", "label": "Memb
+  7b0e9b7e 0.0 {'node': ('string', None, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"average_clustering": 0.570638, "top_nodes": [{"id": "m13", "label": "Member 13", "clustering": 1.0, "degree": 2}, {"id": "m15", "label": "Member 15", "clustering": 1.0, "degree": 2}, {"id": "m16", "label": "Member 16", "clustering"
+  d02c8330 0.0 {'node': ('string', None, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"average_clustering": 0.570638, "transitivity": 0.255682, "triangles": 45, "nodes": 34, "top_nodes": [{"id": "m13", "label": "Member 13", "clustering": 1.0, "triangles": 1, "degree": 2}, {"id": "m15", "label": "Member 15", "clusteri
+  da50612d 0.0 {'node': ('string', None, None), 'top_k': ('integer', 10, None), 'weighted': ('boolean', False, None)} req= []
+     {"status": "ok", "result": {"average_clustering": 0.570638, "nodes": 34, "nodes_with_zero_clustering": 2, "directed": false, "weighted": false, "top": [{"id": "m13", "label": "Member 13", "clustering": 1.0, "degree": 2}, {"id": "m15", "label": "Member 15", "cl
+
+##### connected_components
+  1e59ba80 0.0 {} req= []
+     {"status": "ok", "result": {"num_components": 1, "is_connected": true, "largest_size": 34, "num_isolated_nodes": 0, "components": [{"rank": 1, "size": 34, "graph_id": "karate~1", "members": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m10", "label"
+  3237bc9e 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"component_count": 1, "components": [{"rank": 1, "size": 34, "graph_id": "karate~1", "members": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m10", "label": "Member 10"}, {"id": "m11", "label": "Member 11"}, {"id": "m12",
+  37c243f2 0.0 {} req= []
+     {"status": "ok", "result": [{"component": 1, "size": 34, "graph_id": "karate~1", "nodes": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m10", "label": "Member 10"}, {"id": "m11", "label": "Member 11"}, {"id": "m12", "label": "Member 12"}, {"id": "m1
+  4ebce3f0 0.0 {'top_k': ('integer', 10, None), 'node': ('string', None, None)} req= []
+     {"status": "ok", "result": {"num_components": 1, "connectivity": "undirected", "largest_size": 34, "isolated_nodes": 0, "components_shown": 1, "components": [{"component": 1, "size": 34, "graph_id": "karate~1", "members": [{"id": "m1", "label": "Member 1 (inst
+  991d1029 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"component": 1, "size": 34, "graph_id": "karate~1", "nodes": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m10", "label": "Member 10"}, {"id": "m11", "label": "Member 11"}, {"id": "m12", "label": "Member 12"}, {"id": "m1
+  e2346c64 0.0 {'top_k': ('integer', 10, None), 'node': ('string', None, None)} req= []
+     {"status": "ok", "result": {"num_components": 1, "largest_size": 34, "isolated_nodes": 0, "mode": "undirected", "components": [{"rank": 1, "size": 34, "fraction": 1.0, "graph_id": "karate~1", "members": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "
+  f9857550 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"rank": 1, "size": 34, "fraction_of_nodes": 1.0, "graph_id": "karate~1", "members": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m10", "label": "Member 10"}, {"id": "m11", "label": "Member 11"}, {"id": "m12", "label": "
+
+##### degree_centrality
+  54d073a3 0.0 {'top_k': ('integer', 10, None), 'direction': ('string', 'total', ['total', 'in', 'out'])} req= []
+     {"status": "ok", "result": [{"id": "m34", "label": "Member 34 (administrator)", "score": 0.515152, "degree": 17}, {"id": "m1", "label": "Member 1 (instructor)", "score": 0.484848, "degree": 16}, {"id": "m33", "label": "Member 33", "score": 0.363636, "degree": 
+  62a230f4 0.002 {'top_k': ('integer', 10, None), 'mode': ('string', None, None)} req= []
+     {"status": "ok", "result": [{"id": "m34", "label": "Member 34 (administrator)", "score": 0.515152}, {"id": "m1", "label": "Member 1 (instructor)", "score": 0.484848}, {"id": "m33", "label": "Member 33", "score": 0.363636}, {"id": "m3", "label": "Member 3", "sc
+  a018559c 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"id": "m34", "label": "Member 34 (administrator)", "degree": 17}, {"id": "m1", "label": "Member 1 (instructor)", "degree": 16}, {"id": "m33", "label": "Member 33", "degree": 12}, {"id": "m3", "label": "Member 3", "degree": 10}, {"i
+  c52598eb 0.0 {'top_k': ('integer', 10, None), 'direction': ('string', 'total', ['total', 'in', 'out'])} req= []
+     {"status": "ok", "result": [{"id": "m34", "label": "Member 34 (administrator)", "score": 0.515152, "degree": 17}, {"id": "m1", "label": "Member 1 (instructor)", "score": 0.484848, "degree": 16}, {"id": "m33", "label": "Member 33", "score": 0.363636, "degree": 
+  f897d4c5 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"id": "m34", "label": "Member 34 (administrator)", "centrality": 0.515152}, {"id": "m1", "label": "Member 1 (instructor)", "centrality": 0.484848}, {"id": "m33", "label": "Member 33", "centrality": 0.363636}, {"id": "m3", "label": 
+
+##### degree_distribution
+  63fb3e40 0.0 {'degree_type': ('string', 'total', ['total', 'in', 'out']), 'bin_width': ('integer', 1, None)} req= []
+     {"status": "ok", "result": {"graph_id": "karate", "directed": false, "degree_type": "total", "number_of_nodes": 34, "number_of_edges": 78, "min_degree": 1, "max_degree": 17, "mean_degree": 4.588235, "median_degree": 3.0, "std_degree": 3.820361, "most_common_de
+  6e31812a 0.0 {'mode': ('string', 'total', ['total', 'in', 'out']), 'bins': ('integer', None, None)} req= []
+     {"status": "ok", "result": {"graph_id": "karate", "directed": false, "mode": "total", "nodes": 34, "edges": 78, "min_degree": 1, "max_degree": 17, "mean_degree": 4.588235, "median_degree": 3.0, "most_common_degree": {"degree": 2, "count": 11}, "isolated_nodes"
+  c1fb2ea9 0.0 {} req= []
+     {"status": "ok", "result": [0, 1, 11, 6, 6, 3, 2, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1], "summary": "Graph 'karate' (34 nodes) has degrees ranging from 1 to 17 (mean: 4.588235, most common degree: 2 with 11 nodes).", "result_graph_id": null, "error": null}
+  c4576e71 0.0 {'mode': ('string', 'total', ['total', 'in', 'out']), 'max_bins': ('integer', 20, None)} req= []
+     {"status": "ok", "result": {"mode": "undirected", "num_nodes": 34, "min_degree": 1, "max_degree": 17, "mean_degree": 4.588235, "median_degree": 3.0, "most_common_degree": 2, "isolated_nodes": 0, "bin_width": 1, "histogram": [{"low": 1, "high": 1, "count": 1, "
+  c7c2ef65 0.0 {'mode': ('string', 'total', ['total', 'in', 'out'])} req= []
+     {"status": "ok", "result": {"mode": "total", "num_nodes": 34, "min_degree": 1, "max_degree": 17, "mean_degree": 4.588235, "histogram": [{"degree": 1, "count": 1}, {"degree": 2, "count": 11}, {"degree": 3, "count": 6}, {"degree": 4, "count": 6}, {"degree": 5, "
+  efd53284 0.0 {} req= []
+     {"status": "ok", "result": [{"degree": 1, "count": 1}, {"degree": 2, "count": 11}, {"degree": 3, "count": 6}, {"degree": 4, "count": 6}, {"degree": 5, "count": 3}, {"degree": 6, "count": 2}, {"degree": 9, "count": 1}, {"degree": 10, "count": 1}, {"degree": 12,
+  f3b11984 0.0 {'mode': ('string', 'total', ['total', 'in', 'out']), 'bin_width': ('integer', 1, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"mode": "total", "bin_width": 1, "statistics": {"nodes": 34, "min": 1, "max": 17, "mean": 4.5882, "median": 3.0, "most_common_degree": 2, "nodes_with_most_common_degree": 11}, "histogram": [{"degree": 1, "degree_max": 1, "count": 1,
+
+##### diameter_eccentricity
+  991d1029 0.0 {'top_k': ('integer', 10, None), 'node': ('string', None, None)} req= []
+     {"status": "ok", "result": {"diameter": 5, "radius": 3, "center_size": 8, "periphery_size": 9, "center": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m14", "label": "Member 14"}, {"id": "m2", "label": "Member 2"}, {"id": "m20", "label": "Member 20"
+  ab9fb3a3 0.0 {'top_k': ('integer', 10, None), 'use_weights': ('boolean', False, None)} req= []
+     {"status": "ok", "result": {"diameter": 5, "radius": 3, "use_weights": false, "node_count": 34, "eccentricities": [{"id": "m15", "label": "Member 15", "eccentricity": 5}, {"id": "m16", "label": "Member 16", "eccentricity": 5}, {"id": "m17", "label": "Member 17
+  ae9bcafc 0.0 {'node': ('string', None, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"diameter": 5, "radius": 3, "center": [{"id": "m1", "label": "Member 1 (instructor)", "eccentricity": 3}, {"id": "m14", "label": "Member 14", "eccentricity": 3}, {"id": "m2", "label": "Member 2", "eccentricity": 3}, {"id": "m20", "l
+  d69742a9 0.001 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"diameter": 5.0, "eccentricity": [{"id": "m15", "label": "Member 15", "score": 5.0}, {"id": "m16", "label": "Member 16", "score": 5.0}, {"id": "m17", "label": "Member 17", "score": 5.0}, {"id": "m19", "label": "Member 19", "score": 
+
+##### ego_network
+  51616f3b 0.0 {'node': ('string', None, None), 'direction': ('string', 'out', ['out', 'in', 'both']), 'top_k': ('integer', 10, None)} req= ['node']
+     {"status": "ok", "result": {"center": {"id": "m1", "label": "Member 1 (instructor)"}, "direction": "out", "direction_note": "'out' selects outgoing neighbours, 'in' selects incoming neighbours, and 'both' selects their union. For undirected graphs, all three o
+  98eff80e 0.0 {'node': ('string', None, None), 'radius': ('integer', 1, None), 'include_center': ('boolean', True, None), 'undirected': ('boolean', False, None), 'top_k': ('integer', 10, None)} req= ['node']
+     {"status": "ok", "result": {"center": {"id": "m1", "label": "Member 1 (instructor)"}, "radius": 1, "include_center": true, "undirected": false, "node_count": 17, "edge_count": 34, "nodes": [{"id": "m1", "label": "Member 1 (instructor)", "distance": 0, "degree_
+  afc500fb 0.0 {'node': ('string', None, None)} req= ['node']
+     {"status": "ok", "result": {"ego": {"id": "m1", "label": "Member 1 (instructor)"}, "neighbors": [{"id": "m11", "label": "Member 11"}, {"id": "m12", "label": "Member 12"}, {"id": "m13", "label": "Member 13"}, {"id": "m14", "label": "Member 14"}, {"id": "m18", "
+  b2d75536 0.0 {'node': ('string', None, None), 'radius': ('integer', 1, None), 'direction': ('string', 'both', ['both', 'out', 'in']), 'include_center': ('boolean', True, None), 'top_k': ('integer', 10, None)} req= ['node']
+     {"status": "ok", "result": {"center": {"id": "m1", "label": "Member 1 (instructor)"}, "radius": 1, "direction": "both", "include_center": true, "alters": 16, "nodes": 17, "edges": 34, "density": 0.25, "members_shown": 10, "members": [{"id": "m2", "label": "Mem
+  d35c782d 0.002 {'node': ('string', None, None), 'level': ('number', 1.5, [1.0, 1.5, 2.0]), 'direction': ('string', 'out', ['out', 'in', 'both']), 'include_ego': ('boolean', True, None), 'alter_density': ('boolean', False, None), 'top_k': ('integer', 10, None)} req= ['node']
+     {"status": "ok", "result": {"ego": {"id": "m1", "label": "Member 1 (instructor)"}, "level": 1.5, "n_nodes": 17, "n_edges": 34, "n_neighbors": 16, "nodes": [{"id": "m1", "label": "Member 1 (instructor)", "distance": 0}, {"id": "m11", "label": "Member 11", "dist
+  e1e14ad1 0.0 {'node': ('string', None, None), 'direction': ('string', None, ['both', 'out', 'in']), 'top_k': ('integer', 10, None)} req= ['node']
+     {"status": "ok", "result": {"ego": {"id": "m1", "label": "Member 1 (instructor)"}, "neighbors": 16, "nodes": 17, "edges": 34, "neighbor_sample": [{"id": "m11", "label": "Member 11"}, {"id": "m12", "label": "Member 12"}, {"id": "m13", "label": "Member 13"}, {"i
+
+##### girvan_newman
+  219c8a12 0.027 {'num_communities': ('integer', None, None), 'max_removals': ('integer', 1000, None), 'top_k': ('integer', 10, None), 'community_index': ('integer', 0, None), 'weighted': ('boolean', True, None), 'max_seconds': ('number', 20, None)} req= []
+     {"status": "ok", "result": {"num_communities": 5, "modularity": 0.401298, "edges_removed": 24, "communities": [{"community": 0, "size": 12, "graph_id": "karate~1", "sample_nodes": [{"id": "m34", "label": "Member 34 (administrator)"}, {"id": "m33", "label": "Me
+  3237bc9e 0.026 {'num_communities': ('integer', None, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"community_count": 5, "modularity": 0.401298, "communities": [{"rank": 1, "size": 12, "graph_id": "karate~1", "members": [{"id": "m15", "label": "Member 15"}, {"id": "m16", "label": "Member 16"}, {"id": "m19", "label": "Member 19"},
+  3c8c3c69 0.016 {'num_communities': ('integer', None, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"num_communities": 5, "modularity": 0.401298, "edges_removed": 24, "chosen_by": "highest modularity", "communities": [{"size": 12, "graph_id": "karate~1", "members": [{"id": "m34", "label": "Member 34 (administrator)"}, {"id": "m33"
+  64036f4f 0.018 {'num_communities': ('integer', 2, None)} req= []
+     {"status": "ok", "result": {"communities": [{"community": 1, "size": 19, "nodes": [{"id": "m10", "label": "Member 10"}, {"id": "m15", "label": "Member 15"}, {"id": "m16", "label": "Member 16"}, {"id": "m19", "label": "Member 19"}, {"id": "m21", "label": "Membe
+  80ae2fd8 0.016 {'top_k': ('integer', 10, None), 'num_communities': ('integer', 2, None)} req= []
+     {"status": "ok", "result": [{"community": 1, "graph_id": "karate~1", "size": 19, "nodes": [{"id": "m10", "label": "Member 10"}, {"id": "m15", "label": "Member 15"}, {"id": "m16", "label": "Member 16"}, {"id": "m19", "label": "Member 19"}, {"id": "m21", "label"
+  afc500fb 0.011 {'communities': ('integer', 2, None)} req= []
+     {"status": "ok", "result": {"number_of_communities": 2, "communities": [{"community": 1, "graph_id": "karate~1", "size": 15, "nodes": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m11", "label": "Member 11"}, {"id": "m12", "label": "Member 12"}, {"i
+  c7c2ef65 0.012 {'num_communities': ('integer', None, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"num_communities": 5, "modularity": 0.401298, "edges_removed": 24, "communities": [{"community": 1, "size": 12, "graph_id": "karate~1", "members": [{"id": "m34", "label": "Member 34 (administrator)"}, {"id": "m33", "label": "Member 
+  d35c782d 0.019 {'n_communities': ('integer', None, None), 'use_weights': ('boolean', False, None), 'use_direction': ('boolean', False, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"community": 1, "graph_id": "karate~1", "size": 12, "n_edges": 23, "nodes": [{"id": "m15", "label": "Member 15"}, {"id": "m16", "label": "Member 16"}, {"id": "m19", "label": "Member 19"}, {"id": "m21", "label": "Member 21"}, {"id":
+
+##### graph_summary
+  2f7893e5 0.0 {} req= []
+     {"status": "ok", "result": {"graph_id": "karate", "directed": false, "weighted": false, "nodes": 34, "edges": 78, "density": 0.139037, "avg_degree": 4.588235, "isolated_nodes": 0}, "summary": "Graph 'karate' (undirected, unweighted) has 34 nodes and 78 edges; 
+  41c8e8e2 0.0 {} req= []
+     {"status": "ok", "result": {"graph_id": "karate", "directed": false, "weighted": false, "nodes": 34, "edges": 78, "density": 0.139037, "average_degree": 4.588235, "min_degree": 1, "max_degree": 17, "highest_degree_node": {"id": "m34", "label": "Member 34 (admi
+  5c98c8eb 0.0 {} req= []
+     {"status": "ok", "result": {"graph_id": "karate", "directed": false, "weighted": false, "number_of_nodes": 34, "number_of_edges": 78, "density": 0.139037, "average_degree": 4.588235, "average_in_degree": null, "average_out_degree": null}, "summary": "Graph 'ka
+  64036f4f 0.0 {} req= []
+     {"status": "ok", "result": {"graph_id": "karate", "directed": false, "weighted": false, "node_count": 34, "edge_count": 78, "density": 0.139037, "average_degree": 4.588235}, "summary": "Graph 'karate' is an undirected graph with 34 nodes and 78 edges; its dens
+  80ae2fd8 0.002 {} req= []
+     {"status": "ok", "result": {"graph_id": "karate", "number_of_nodes": 34, "number_of_edges": 78, "directed": false, "weighted": false, "density": 0.139037, "connected_components_count": 1, "diameter": 5, "radius": 3, "average_shortest_path_length": 2.4082}, "su
+  a20d8c29 0.0 {} req= []
+     {"status": "ok", "result": {"graph_id": "karate", "directed": false, "weighted": false, "nodes": 34, "edges": 78, "density": 0.139037, "average_degree": 4.588235, "min_degree": 1, "max_degree": 17, "isolated_nodes": 0, "self_loops": 0, "most_connected": {"id":
+
+##### greedy_coloring
+  4ebce3f0 0.0 {'strategy': ('string', 'largest_first', ['largest_first', 'dsatur', 'smallest_last']), 'top_k': ('integer', 10, None), 'node': ('string', None, None)} req= []
+     {"status": "ok", "result": {"num_colors": 5, "strategy": "largest_first", "valid": true, "max_degree": 17, "color_classes": [{"color": 0, "size": 4, "members": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m17", "label": "Member 17"}, {"id": "m25", 
+  54d073a3 0.0 {'top_k': ('integer', 10, None), 'strategy': ('string', 'largest_first', ['largest_first', 'dsatur'])} req= []
+     {"status": "ok", "result": {"num_colors": 5, "strategy": "largest_first", "num_nodes": 34, "max_degree": 17, "is_proper_coloring": true, "color_class_sizes": [{"color": 0, "size": 4}, {"color": 1, "size": 11}, {"color": 2, "size": 14}, {"color": 3, "size": 3},
+  8809b513 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"color_count": 5, "color_class_sizes": [4, 11, 14, 3, 2], "total_nodes": 34, "assignments": [{"id": "m1", "label": "Member 1 (instructor)", "color": 1}, {"id": "m10", "label": "Member 10", "color": 2}, {"id": "m11", "label": "Member
+  f28f69d7 0.0 {'top_k': ('integer', 100, None)} req= []
+     {"status": "ok", "result": {"num_colors": 5, "total_nodes": 34, "colors": [{"id": "m1", "label": "Member 1 (instructor)", "color": 0}, {"id": "m10", "label": "Member 10", "color": 1}, {"id": "m11", "label": "Member 11", "color": 2}, {"id": "m12", "label": "Mem
+
+##### hits
+  219c8a12 0.054 {'score': ('string', 'both', ['hub', 'authority', 'both']), 'top_k': ('integer', 10, None), 'max_iter': ('integer', 100, None), 'tol': ('number', 1e-08, None), 'normalized': ('boolean', True, None), 'weighted': ('boolean', True, None)} req= []
+     {"status": "ok", "result": {"hubs": [{"id": "FRA", "label": "Frankfurt am Main Airport", "hub": 0.014987, "authority": 0.014942}, {"id": "JFK", "label": "John F Kennedy International Airport", "hub": 0.014872, "authority": 0.014684}, {"id": "DXB", "label": "Du
+  98eff80e 0.042 {'top_k': ('integer', 10, None), 'score_type': ('string', 'hub', ['hub', 'authority']), 'max_iter': ('integer', 100, None), 'tol': ('number', 1e-08, None), 'normalized': ('boolean', True, None), 'weighted': ('boolean', True, None)} req= []
+     {"status": "ok", "result": [{"id": "FRA", "label": "Frankfurt am Main Airport", "score": 0.014987, "hub_score": 0.014987, "authority_score": 0.014942}, {"id": "JFK", "label": "John F Kennedy International Airport", "score": 0.014872, "hub_score": 0.014872, "au
+  a20d8c29 0.047 {'top_k': ('integer', 10, None), 'rank_by': ('string', 'authority', None), 'max_iter': ('integer', 100, None), 'tol': ('number', 1e-08, None), 'use_weights': ('boolean', True, None)} req= []
+     {"status": "ok", "result": [{"id": "FRA", "label": "Frankfurt am Main Airport", "authority": 0.014942, "hub": 0.014987}, {"id": "DXB", "label": "Dubai International Airport", "authority": 0.014723, "hub": 0.014776}, {"id": "JFK", "label": "John F Kennedy Inter
+  f9857550 0.0 {'top_k': ('integer', 10, None), 'sort_by': ('string', 'authority', ['authority', 'hub']), 'max_iter': ('integer', 1000, None), 'tol': ('number', 1e-10, None), 'use_weights': ('boolean', False, None)} req= []
+     {"status": "ok", "result": [{"id": "CS305", "label": "Machine Learning", "authority": 0.287301, "hub": 0.004831}, {"id": "CS307", "label": "Artificial Intelligence", "authority": 0.240675, "hub": 0.020108}, {"id": "CS304", "label": "Compilers", "authority": 0.
+
+##### k_core
+  3f28ff34 0.003 {'k': ('integer', None, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"k": 4, "max_core_number": 4, "size": 10, "nodes": [{"id": "m1", "label": "Member 1 (instructor)", "core_number": 4}, {"id": "m14", "label": "Member 14", "core_number": 4}, {"id": "m2", "label": "Member 2", "core_number": 4}, {"id":
+  51616f3b 0.0 {'k': ('integer', None, None), 'top_k': ('integer', 10, None), 'mode': ('string', 'total', ['total', 'undirected'])} req= []
+     {"status": "ok", "result": {"selected_k": 4, "max_core_number": 4, "mode": "total", "selected_node_count": 10, "selected_edge_count": 25, "density": 0.555556, "component_count": 1, "core_distribution": {"1": 1, "2": 11, "3": 12, "4": 10}, "top_nodes": [{"id": 
+  b2d75536 0.002 {'k': ('integer', None, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"k": 4, "max_core": 4, "core_size": 10, "core_edges": 25, "core_distribution": [{"k": 1, "nodes": 1}, {"k": 2, "nodes": 11}, {"k": 3, "nodes": 12}, {"k": 4, "nodes": 10}], "members_shown": 10, "members": [{"id": "m1", "label": "Memb
+  d02c8330 0.0 {'k': ('integer', None, None), 'node': ('string', None, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"k": 4, "max_core": 4, "core_size": 10, "core_edges": 25, "core_number_counts": [{"core_number": 1, "nodes": 1}, {"core_number": 2, "nodes": 11}, {"core_number": 3, "nodes": 12}, {"core_number": 4, "nodes": 10}], "members": [{"id": 
+
+##### k_hop_neighborhood
+  32016695 0.0 {'node': ('string', None, None), 'k': ('integer', 2, None), 'direction': ('string', 'out', ['out', 'in', 'both']), 'top_k': ('integer', 10, None)} req= ['node']
+     {"status": "ok", "result": {"source": {"id": "m1", "label": "Member 1 (instructor)"}, "k": 2, "direction": "both", "count": 25, "count_by_hops": {"1": 16, "2": 9}, "nodes": [{"id": "m11", "label": "Member 11", "hops": 1}, {"id": "m12", "label": "Member 12", "h
+  3c8c3c69 0.0 {'node': ('string', None, None), 'k': ('integer', 2, None), 'direction': ('string', 'out', ['out', 'in', 'both']), 'top_k': ('integer', 10, None)} req= ['node']
+     {"status": "ok", "result": {"center": {"id": "m1", "label": "Member 1 (instructor)"}, "k": 2, "direction": "undirected", "count": 25, "per_hop": [{"hops": 1, "count": 16}, {"hops": 2, "count": 9}], "nodes": [{"id": "m11", "label": "Member 11", "hops": 1}, {"id
+  3f28ff34 0.002 {'node': ('string', None, None), 'k': ('integer', 1, None), 'top_k': ('integer', 10, None)} req= ['node']
+     {"status": "ok", "result": {"source": {"id": "m1", "label": "Member 1 (instructor)"}, "k": 1, "count": 16, "nodes": [{"id": "m11", "label": "Member 11", "distance": 1}, {"id": "m12", "label": "Member 12", "distance": 1}, {"id": "m13", "label": "Member 13", "di
+  b2eb4e3d 0.047 {'node': ('string', None, None), 'k': ('integer', 1, None), 'direction': ('string', 'out', ['out', 'in', 'both']), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"center": {"id": "m34", "label": "Member 34 (administrator)"}, "default_center": true, "k": 1, "direction": "undirected", "total_reached": 17, "count_by_distance": {"1": 17}, "nodes": [{"id": "m10", "label": "Member 10", "distance":
+  e7c02e9e 0.001 {'node': ('string', None, None), 'k': ('integer', 2, None), 'direction': ('string', 'out', ['out', 'in', 'both']), 'top_k': ('integer', 10, None)} req= ['node']
+     {"status": "ok", "result": {"center": {"id": "m1", "label": "Member 1 (instructor)"}, "k": 2, "edges_followed": "undirected", "count": 25, "hop_counts": {"1": 16, "2": 9}, "subgraph_nodes": 26, "subgraph_edges": 59, "nodes": [{"id": "m11", "label": "Member 11"
+  f1f54c61 0.0 {'node': ('string', None, None), 'k': ('integer', 2, None), 'top_k': ('integer', 10, None)} req= ['node']
+     {"status": "ok", "result": {"start_node": {"id": "m1", "label": "Member 1 (instructor)"}, "k": 2, "top_k": 10, "nodes": [{"id": "m1", "label": "Member 1 (instructor)", "distance": 0}, {"id": "m11", "label": "Member 11", "distance": 1}, {"id": "m12", "label": "
+
+##### label_propagation
+  39bca602 0.0 {'max_iter': ('integer', 30, None), 'seed': ('integer', 0, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"community_rank": 1, "size": 29, "graph_id": "karate~1", "sample_nodes": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m10", "label": "Member 10"}, {"id": "m12", "label": "Member 12"}, {"id": "m13", "label": "Member 13"}
+  6ae0e02c 0.0 {'top_k': ('integer', 10, None), 'seed': ('integer', 0, None), 'max_iter': ('integer', 100, None)} req= []
+     {"status": "ok", "result": {"num_communities": 2, "modularity": 0.256082, "communities": [{"community": 1, "size": 24, "graph_id": "karate~1", "members_shown": 24, "truncated": false, "nodes": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m10", "lab
+  a018559c 0.0 {'top_k': ('integer', 10, None), 'seed': ('integer', 0, None)} req= []
+     {"status": "ok", "result": [{"community": 1, "size": 19, "graph_id": "karate~1", "nodes": [{"id": "m10", "label": "Member 10"}, {"id": "m15", "label": "Member 15"}, {"id": "m16", "label": "Member 16"}, {"id": "m19", "label": "Member 19"}, {"id": "m21", "label"
+  f1f54c61 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"community": 1, "label": "m11", "size": 34, "nodes": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m10", "label": "Member 10"}, {"id": "m11", "label": "Member 11"}, {"id": "m12", "label": "Member 12"}, {"id": "m13", "lab
+
+##### link_prediction
+  37c243f2 0.0 {'method': ('string', 'adamic_adar', ['common_neighbors', 'jaccard', 'adamic_adar']), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"source": {"id": "m3", "label": "Member 3"}, "target": {"id": "m34", "label": "Member 34 (administrator)"}, "score": 6.0, "method": "common_neighbors"}, {"source": {"id": "m1", "label": "Member 1 (instructor)"}, "target": {"id": "m
+  41c8e8e2 0.001 {'method': ('string', 'adamic_adar', ['adamic_adar', 'common_neighbors', 'jaccard', 'resource_allocation', 'preferential_attachment']), 'node': ('string', None, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"source": {"id": "m3", "label": "Member 3"}, "target": {"id": "m34", "label": "Member 34 (administrator)"}, "score": 4.719381}, {"source": {"id": "m1", "label": "Member 1 (instructor)"}, "target": {"id": "m34", "label": "Member 34 
+  92711a92 0.0 {'node': ('string', None, None), 'method': ('string', 'adamic_adar', ['adamic_adar', 'resource_allocation', 'jaccard', 'common_neighbors', 'preferential_attachment']), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"source": {"id": "m3", "label": "Member 3"}, "target": {"id": "m34", "label": "Member 34 (administrator)"}, "score": 4.719381, "common_neighbors": 6}, {"source": {"id": "m1", "label": "Member 1 (instructor)"}, "target": {"id": "m34
+  d35c782d 0.0 {'node': ('string', None, None), 'method': ('string', 'adamic_adar', ['adamic_adar', 'common_neighbors', 'jaccard', 'resource_allocation', 'preferential_attachment', 'community_resource_allocation']), 'community_attribute': ('string', None, None), 'use_direction': ('boolean', False, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"source": {"id": "m3", "label": "Member 3"}, "target": {"id": "m34", "label": "Member 34 (administrator)"}, "score": 4.719381}, {"source": {"id": "m1", "label": "Member 1 (instructor)"}, "target": {"id": "m34", "label": "Member 34 
+  eaf1d77a 0.0 {'method': ('string', 'adamic_adar', ['adamic_adar', 'resource_allocation', 'jaccard', 'common_neighbors', 'preferential_attachment']), 'node': ('string', None, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"source": {"id": "m3", "label": "Member 3"}, "target": {"id": "m34", "label": "Member 34 (administrator)"}, "score": 4.719381, "common_neighbors": 6}, {"source": {"id": "m1", "label": "Member 1 (instructor)"}, "target": {"id": "m34
+
+##### louvain
+  91f2b762 0.002 {'top_k': ('integer', 10, None), 'seed': ('integer', 0, None), 'resolution': ('number', 1.0, None), 'use_weights': ('boolean', True, None), 'node': ('string', None, None)} req= []
+     {"status": "ok", "result": {"modularity": 0.41979, "num_communities": 4, "num_nodes": 34, "communities": [{"community": 1, "graph_id": "karate~1", "size": 12, "members": [{"id": "m10", "label": "Member 10"}, {"id": "m15", "label": "Member 15"}, {"id": "m16", "
+  b2d75536 0.0 {'resolution': ('number', 1.0, None), 'seed': ('integer', 0, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"communities_found": 4, "modularity": 0.41979, "resolution": 1.0, "seed": 0, "levels": 2, "largest_community_size": 12, "smallest_community_size": 5, "communities_shown": 4, "communities": [{"rank": 1, "size": 12, "internal_edges": 
+  c4576e71 0.005 {'resolution': ('number', 1.0, None), 'seed': ('integer', 0, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"community": 0, "size": 12, "graph_id": "karate~1", "members": [{"id": "m34", "label": "Member 34 (administrator)", "degree": 17}, {"id": "m33", "label": "Member 33", "degree": 12}, {"id": "m9", "label": "Member 9", "degree": 5}], 
+  e7c02e9e 0.006 {'resolution': ('number', 1.0, None), 'use_weights': ('boolean', True, None), 'seed': ('integer', 0, None), 'top_k': ('integer', 10, None), 'node': ('string', None, None)} req= []
+     {"status": "ok", "result": {"num_communities": 4, "modularity": 0.41979, "resolution": 1.0, "communities": [{"community": 1, "size": 12, "graph_id": "karate~1", "members": [{"id": "m34", "label": "Member 34 (administrator)"}, {"id": "m33", "label": "Member 33"
+  f1f54c61 0.006 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"community": 1, "size": 12, "nodes": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m10", "label": "Member 10"}, {"id": "m12", "label": "Member 12"}, {"id": "m13", "label": "Member 13"}, {"id": "m14", "label": "Member 14"
+  f28f69d7 0.0 {'resolution': ('number', 1.0, None), 'seed': ('integer', 0, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"communities": [{"graph_id": "karate~1", "size": 12, "nodes": [{"id": "m10", "label": "Member 10"}, {"id": "m15", "label": "Member 15"}, {"id": "m16", "label": "Member 16"}, {"id": "m19", "label": "Member 19"}, {"id": "m21", "label"
+  f3b11984 0.0 {'resolution': ('number', 1.0, None), 'seed': ('integer', 0, None), 'top_k': ('integer', 10, None), 'weighted': ('boolean', True, None), 'node': ('string', None, None)} req= []
+     {"status": "ok", "result": [{"community": 1, "size": 12, "graph_id": "karate~1", "top_members": [{"id": "m34", "label": "Member 34 (administrator)", "degree": 17.0}, {"id": "m33", "label": "Member 33", "degree": 12.0}, {"id": "m9", "label": "Member 9", "degree
+
+##### max_flow_min_cut
+  1e59ba80 0.0 {'source': ('string', None, None), 'sink': ('string', None, None), 'capacity': ('string', 'weight', None)} req= ['source', 'sink']
+     {"status": "ok", "result": {"source": {"id": "m1", "label": "Member 1 (instructor)"}, "sink": {"id": "m34", "label": "Member 34 (administrator)"}, "capacity": "weight", "max_flow": 10.0, "cut_capacity": 10.0, "num_cut_edges": 10, "source_side_size": 17, "sink_
+  29a7a55d 0.0 {'source': ('string', None, None), 'sink': ('string', None, None), 'top_k': ('integer', 10, None)} req= ['source', 'sink']
+     {"status": "ok", "result": {"source": {"id": "m1", "label": "Member 1 (instructor)"}, "sink": {"id": "m34", "label": "Member 34 (administrator)"}, "flow_value": 10.0, "min_cut": {"cut_edges_count": 10, "cut_edges": [{"source": "m1", "target": "m32", "capacity"
+  32016695 0.0 {'source': ('string', None, None), 'sink': ('string', None, None), 'capacity': ('string', 'weight', None), 'top_k': ('integer', 10, None)} req= ['source', 'sink']
+     {"status": "ok", "result": {"source": {"id": "m1", "label": "Member 1 (instructor)"}, "sink": {"id": "m34", "label": "Member 34 (administrator)"}, "capacity": "weight", "max_flow": 10.0, "augmenting_paths": 10, "cut_size": 10, "cut_capacity": 10.0, "source_sid
+  3ddaa37e 0.0 {'top_k': ('integer', 10, None), 'source': ('string', None, None), 'sink': ('string', None, None)} req= ['source', 'sink']
+     {"status": "ok", "result": {"source": {"id": "CS101", "label": "Programming Basics"}, "sink": {"id": "CS401", "label": "Distributed Systems"}, "max_flow": 2.0, "cut_capacity": 2.0, "cut_edges": [{"source": {"id": "CS101", "label": "Programming Basics"}, "targe
+  5c98c8eb 0.084 {'source': ('string', None, None), 'sink': ('string', None, None), 'top_k': ('integer', 10, None)} req= ['source', 'sink']
+     {"status": "ok", "result": {"graph_id": "airports", "source": {"id": "ABJ", "label": "Port Bouet Airport"}, "sink": {"id": "ABQ", "label": "Albuquerque International Sunport"}, "max_flow": 29555.0, "min_cut_capacity": 29555.0, "source_side": [{"id": "ABJ", "la
+  991d1029 0.0 {'source': ('string', None, None), 'sink': ('string', None, None), 'capacity': ('string', 'weight', None), 'top_k': ('integer', 10, None)} req= ['source', 'sink']
+     {"status": "ok", "result": {"max_flow": 10.0, "source": {"id": "m1", "label": "Member 1 (instructor)"}, "sink": {"id": "m34", "label": "Member 34 (administrator)"}, "capacity": "weight", "cut_size": 10, "source_side_size": 15, "sink_side_size": 19, "cut_edges"
+  da50612d 0.004 {'source': ('string', None, None), 'sink': ('string', None, None), 'capacity': ('string', 'weight', None), 'top_k': ('integer', 10, None)} req= ['source', 'sink']
+     {"status": "ok", "result": {"source": {"id": "m1", "label": "Member 1 (instructor)"}, "sink": {"id": "m34", "label": "Member 34 (administrator)"}, "capacity": "weight", "max_flow_value": 10, "cut_size": 10, "cut_capacity": 10, "source_side_size": 17, "sink_sid
+  edba08e8 0.001 {'source': ('string', None, None), 'sink': ('string', None, None), 'top_k': ('integer', 10, None)} req= ['source', 'sink']
+     {"status": "ok", "result": {"max_flow": 10.0, "source": {"id": "m1", "label": "Member 1 (instructor)"}, "sink": {"id": "m34", "label": "Member 34 (administrator)"}, "cut_capacity": 10.0, "cut_edges_total": 10, "cut_edges_returned": 10, "source_side_size": 15, 
+
+##### maximal_cliques
+  62a230f4 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"max_size": 5, "n_maximal": 36, "cliques": [{"size": 5, "nodes": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m14", "label": "Member 14"}, {"id": "m2", "label": "Member 2"}, {"id": "m3", "label": "Member 3"}, {"id": "m4"
+  6ae0e02c 0.003 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"total_cliques": 36, "cliques": [{"clique": 1, "size": 5, "graph_id": "karate~1", "nodes": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m14", "label": "Member 14"}, {"id": "m2", "label": "Member 2"}, {"id": "m3", "label"
+  6e31812a 0.006 {'top_k': ('integer', 10, None), 'node': ('string', None, None), 'mutual_only': ('boolean', False, None)} req= []
+     {"status": "ok", "result": {"graph_id": "karate", "node": null, "clique_number": 5, "maximal_cliques": 36, "largest_cliques": 2, "requested": 10, "returned": 10, "cliques": [{"rank": 1, "size": 5, "graph_id": "karate~1", "members": [{"id": "m1", "label": "Memb
+  7065a2b5 0.006 {'top_k': ('integer', 10, None), 'node': ('string', None, None)} req= []
+     {"status": "ok", "result": [{"rank": 1, "size": 5, "graph_id": "karate~1", "members": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m14", "label": "Member 14"}, {"id": "m2", "label": "Member 2"}, {"id": "m3", "label": "Member 3"}, {"id": "m4", "labe
+  92711a92 0.0 {'node': ('string', None, None), 'min_size': ('integer', 2, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"rank": 1, "size": 5, "graph_id": "karate~1", "members": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m14", "label": "Member 14"}, {"id": "m2", "label": "Member 2"}, {"id": "m3", "label": "Member 3"}, {"id": "m4", "labe
+  a018559c 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"size": 5, "nodes": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m14", "label": "Member 14"}, {"id": "m2", "label": "Member 2"}, {"id": "m3", "label": "Member 3"}, {"id": "m4", "label": "Member 4"}], "graph_id": "karate
+  a20d8c29 0.0 {'top_k': ('integer', 10, None), 'min_size': ('integer', 1, None)} req= []
+     {"status": "ok", "result": [{"graph_id": "karate~1", "size": 5, "nodes": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m14", "label": "Member 14"}, {"id": "m2", "label": "Member 2"}, {"id": "m3", "label": "Member 3"}, {"id": "m4", "label": "Member 4
+  ab9fb3a3 0.004 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"size": 5, "nodes": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m14", "label": "Member 14"}, {"id": "m2", "label": "Member 2"}, {"id": "m3", "label": "Member 3"}, {"id": "m4", "label": "Member 4"}], "graph_id": "karate
+
+##### minimum_spanning_tree
+  3ddaa37e 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"edges": [{"source": {"id": "c01", "label": "Anzelma"}, "target": {"id": "c59", "label": "MmeThenardier"}, "weight": 1.0}, {"source": {"id": "c02", "label": "Babet"}, "target": {"id": "c26", "label": "Eponine"}, "weight": 1.0}, {"so
+  5c98c8eb 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"graph_id": "karate", "number_of_nodes": 34, "number_of_edges": 78, "selected_edge_count": 33, "total_weight": 33.0, "is_spanning_tree": true, "component_count": 1, "edges": [{"source": {"id": "m1", "label": "Member 1 (instructor)"}
+  96e40bd2 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"source": {"id": "c63", "label": "Myriel"}, "target": {"id": "c74", "label": "Valjean"}, "weight": 5.0}, {"source": {"id": "c06", "label": "Blacheville"}, "target": {"id": "c24", "label": "Dahlia"}, "weight": 3.0}, {"source": {"id"
+  b2eb4e3d 0.042 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"total_weight": 33.0, "num_nodes": 34, "num_edges": 33, "num_components": 1, "is_connected": true, "weighted": false, "edges": [{"source": {"id": "m1", "label": "Member 1 (instructor)"}, "target": {"id": "m11", "label": "Member 11"}
+  edba08e8 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"total_weight": 105.0, "num_tree_edges": 76, "num_nodes": 77, "num_components": 1, "edges_returned": 10, "edges": [{"source": {"id": "c01", "label": "Anzelma"}, "target": {"id": "c59", "label": "MmeThenardier"}, "weight": 1.0}, {"so
+
+##### motif_count
+  37c243f2 0.0 {'top_k': ('integer', 15, None)} req= []
+     {"status": "ok", "result": {"motif_type": "triangle", "count": 45, "top_k": 5, "examples": [{"type": "triangle", "nodes": ["m1", "m11", "m5"]}, {"type": "triangle", "nodes": ["m1", "m11", "m6"]}, {"type": "triangle", "nodes": ["m1", "m13", "m4"]}, {"type": "tr
+  51616f3b 0.0 {} req= []
+     {"status": "ok", "result": {"graph_type": "undirected", "node_count": 34, "edge_count": 78, "triangle_count": 45, "open_wedge_count": 393, "transitivity": 0.255682}, "summary": "Graph 'karate' has 45 triangles (sets of 3 mutually connected nodes) and 393 open 
+  63fb3e40 0.0 {'size': ('integer', None, [3, 4]), 'motif': ('string', None, None), 'node': ('string', None, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"graph_id": "karate", "directed": false, "size": 3, "number_of_nodes": 34, "number_of_edges": 78, "census": {"empty": 3971, "single_edge": 1575, "open_triad": 393, "triangle": 45}, "connected_subgraphs": 438, "motifs": [{"motif": "o
+  7cc0c2d7 0.0 {} req= []
+     {"status": "ok", "result": {"triangle_count": 52, "node_count": 34, "edge_count": 78}, "summary": "The graph contains 52 triangle motifs among 34 nodes.", "result_graph_id": null, "error": null}
+  81c01533 0.0 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"motifs": [{"motif": "open_triad", "name": "open_triad", "count": 393}, {"motif": "triangle", "name": "triangle", "count": 45}], "top_nodes": [{"id": "m1", "label": "Member 1 (instructor)", "triangles": 18}, {"id": "m34", "label": "
+  ae9bcafc 0.0 {} req= []
+     {"status": "ok", "result": {"graph_type": "undirected", "node_count": 34, "edge_count": 78, "triangles": 45, "open_triads": 393}, "summary": "Graph 'karate' has 45 triangle(s) and 393 open triad(s).", "result_graph_id": null, "error": null}
+  e1e14ad1 0.001 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"triangles": 45, "open_triads": 393, "feed_forward_loops": null, "directed_cycles": null, "top_nodes": [{"id": "m1", "label": "Member 1 (instructor)", "triangles": 18}, {"id": "m34", "label": "Member 34 (administrator)", "triangles"
+  eaf1d77a 0.001 {'node': ('string', None, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"directed": false, "nodes": 34, "transitivity": 0.255682, "motifs": [{"motif": "triangle", "count": 45, "view": "undirected", "description": "three nodes all linked to each other"}, {"motif": "wedge", "count": 528, "view": "undirect
+
+##### node_embedding_similarity
+  39bca602 0.009 {'node': ('string', None, None), 'dimensions': ('integer', 16, None), 'walk_length': ('integer', 10, None), 'num_walks': ('integer', 5, None), 'window_size': ('integer', 2, None), 'seed': ('integer', 0, None), 'top_k': ('integer', 10, None)} req= ['node']
+     {"status": "ok", "result": [{"id": "m12", "label": "Member 12", "score": 0.589422}, {"id": "m18", "label": "Member 18", "score": 0.562594}, {"id": "m5", "label": "Member 5", "score": 0.549953}, {"id": "m4", "label": "Member 4", "score": 0.505259}, {"id": "m11"
+  41c8e8e2 0.028 {'node': ('string', None, None), 'top_k': ('integer', 10, None), 'dimensions': ('integer', 16, None), 'walk_length': ('integer', 40, None), 'num_walks': ('integer', 10, None), 'window': ('integer', 5, None), 'seed': ('integer', 0, None)} req= ['node']
+     {"status": "ok", "result": [{"id": "m12", "label": "Member 12", "score": 0.637813}, {"id": "m2", "label": "Member 2", "score": 0.618193}, {"id": "m5", "label": "Member 5", "score": 0.580705}, {"id": "m11", "label": "Member 11", "score": 0.577682}, {"id": "m22"
+  4ebce3f0 0.908 {'node': ('string', None, None), 'top_k': ('integer', 10, None), 'target': ('string', None, None), 'seed': ('integer', 0, None), 'dimensions': ('integer', 32, None), 'walk_length': ('integer', 20, None), 'walks_per_node': ('integer', 10, None), 'window': ('integer', 5, None), 'epochs': ('integer', 2, None)} req= ['node']
+     {"status": "ok", "result": {"node": {"id": "m1", "label": "Member 1 (instructor)"}, "similar": [{"id": "m12", "label": "Member 12", "score": 0.871492, "is_neighbor": true}, {"id": "m5", "label": "Member 5", "score": 0.847568, "is_neighbor": true}, {"id": "m17"
+  7780ae37 0.101 {'node': ('string', None, None), 'top_k': ('integer', 10, None), 'seed': ('integer', 0, None), 'dimensions': ('integer', 32, None), 'walk_length': ('integer', 40, None), 'num_walks': ('integer', 40, None), 'window': ('integer', 5, None)} req= ['node']
+     {"status": "ok", "result": [{"id": "m12", "label": "Member 12", "score": 0.498615}, {"id": "m22", "label": "Member 22", "score": 0.445017}, {"id": "m11", "label": "Member 11", "score": 0.41758}, {"id": "m5", "label": "Member 5", "score": 0.410657}, {"id": "m2"
+  96e40bd2 0.016 {'node': ('string', None, None), 'top_k': ('integer', 10, None), 'walk_length': ('integer', 20, None), 'num_walks': ('integer', 10, None), 'window': ('integer', 5, None), 'dimensions': ('integer', 32, None), 'seed': ('integer', 0, None)} req= ['node']
+     {"status": "ok", "result": [{"id": "m5", "label": "Member 5", "score": 0.474774}, {"id": "m12", "label": "Member 12", "score": 0.42757}, {"id": "m2", "label": "Member 2", "score": 0.412618}, {"id": "m22", "label": "Member 22", "score": 0.404601}, {"id": "m11",
+  b2eb4e3d 0.005 {'node': ('string', None, None), 'top_k': ('integer', 10, None), 'dimensions': ('integer', 16, None), 'walk_length': ('integer', 2, None), 'use_weights': ('boolean', False, None), 'seed': ('integer', 0, None)} req= []
+     {"status": "ok", "result": [{"node_a": {"id": "m15", "label": "Member 15"}, "node_b": {"id": "m16", "label": "Member 16"}, "score": 1.0}, {"node_a": {"id": "m15", "label": "Member 15"}, "node_b": {"id": "m19", "label": "Member 19"}, "score": 1.0}, {"node_a": {
+  efd53284 0.07 {'node': ('string', None, None), 'top_k': ('integer', 10, None), 'dimensions': ('integer', 16, None), 'walk_length': ('integer', 20, None), 'walks_per_node': ('integer', 10, None), 'window': ('integer', 5, None), 'seed': ('integer', 0, None)} req= ['node']
+     {"status": "ok", "result": [{"id": "m4", "label": "Member 4", "score": 0.603351}, {"id": "m11", "label": "Member 11", "score": 0.54762}, {"id": "m12", "label": "Member 12", "score": 0.541456}, {"id": "m5", "label": "Member 5", "score": 0.524895}, {"id": "m22",
+
+##### node_similarity
+  29a7a55d 0.001 {'node_a': ('string', None, None), 'node_b': ('string', None, None)} req= ['node_a', 'node_b']
+     {"status": "ok", "result": {"node_a": {"id": "m1", "label": "Member 1 (instructor)", "degree": 16}, "node_b": {"id": "m34", "label": "Member 34 (administrator)", "degree": 17}, "common_neighbors_count": 4, "common_neighbors": [{"id": "m14", "label": "Member 14
+  39bca602 0.003 {'node': ('string', None, None), 'target_node': ('string', None, None), 'direction': ('string', 'undirected', ['undirected', 'out', 'in']), 'top_k': ('integer', 10, None)} req= ['node']
+     {"status": "ok", "result": [{"id": "m2", "label": "Member 2", "score": 0.388889, "common_neighbors": 7}, {"id": "m4", "label": "Member 4", "score": 0.294118, "common_neighbors": 5}, {"id": "m3", "label": "Member 3", "score": 0.238095, "common_neighbors": 5}, {
+  81c01533 0.253 {'node1': ('string', None, None), 'node2': ('string', None, None)} req= ['node1', 'node2']
+     {"status": "ok", "result": {"common_neighbours": 76, "jaccard_score": 0.463415}, "summary": "John F Kennedy International Airport and Los Angeles International Airport have 76 common neighbours and a Jaccard similarity score of 0.463415.", "result_graph_id": n
+  ab9fb3a3 0.002 {'node_a': ('string', None, None), 'node_b': ('string', None, None), 'direction': ('string', 'all', ['all', 'in', 'out']), 'top_k': ('integer', 10, None)} req= ['node_a', 'node_b']
+     {"status": "ok", "result": {"node_a": {"id": "m1", "label": "Member 1 (instructor)"}, "node_b": {"id": "m2", "label": "Member 2"}, "direction": "all", "common_neighbor_count": 7, "union_neighbor_count": 18, "jaccard_score": 0.388889, "common_neighbors": [{"id"
+  d69742a9 0.003 {'node': ('string', None, None), 'other': ('string', None, None)} req= ['node', 'other']
+     {"status": "ok", "result": {"node": {"id": "m1", "label": "Member 1 (instructor)"}, "other": {"id": "m2", "label": "Member 2"}, "common_neighbors": [{"id": "m14", "label": "Member 14"}, {"id": "m18", "label": "Member 18"}, {"id": "m20", "label": "Member 20"}, 
+  eaf1d77a 0.004 {'node_a': ('string', None, None), 'node_b': ('string', None, None), 'direction': ('string', 'any', ['any', 'out', 'in']), 'top_k': ('integer', 10, None)} req= ['node_a']
+     {"status": "ok", "result": [{"id": "m2", "label": "Member 2", "jaccard": 0.388889, "common_neighbors": 7}, {"id": "m4", "label": "Member 4", "jaccard": 0.294118, "common_neighbors": 5}, {"id": "m3", "label": "Member 3", "jaccard": 0.238095, "common_neighbors":
+
+##### pagerank
+  29a7a55d 0.006 {'damping': ('number', 0.85, None), 'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": [{"id": "m34", "label": "Member 34 (administrator)", "score": 0.100919}, {"id": "m1", "label": "Member 1 (instructor)", "score": 0.096997}, {"id": "m33", "label": "Member 33", "score": 0.071693}, {"id": "m3", "label": "Member 3", "sc
+  da50612d 0.009 {'damping': ('number', 0.85, None), 'top_k': ('integer', 10, None), 'weighted': ('boolean', True, None), 'max_iter': ('integer', 100, None), 'tol': ('number', 1e-06, None)} req= []
+     {"status": "ok", "result": [{"id": "m34", "label": "Member 34 (administrator)", "score": 0.100918}, {"id": "m1", "label": "Member 1 (instructor)", "score": 0.097002}, {"id": "m33", "label": "Member 33", "score": 0.071692}, {"id": "m3", "label": "Member 3", "sc
+  f3b11984 0.006 {'damping': ('number', 0.85, None), 'top_k': ('integer', 10, None), 'weighted': ('boolean', True, None)} req= []
+     {"status": "ok", "result": [{"id": "m34", "label": "Member 34 (administrator)", "rank": 1, "score": 0.10091918}, {"id": "m1", "label": "Member 1 (instructor)", "rank": 2, "score": 0.09699729}, {"id": "m33", "label": "Member 33", "rank": 3, "score": 0.07169323}
+
+##### personalized_pagerank
+  81c01533 0.008 {'seed_node': ('string', None, None), 'alpha': ('number', 0.85, None), 'top_k': ('integer', 10, None), 'max_iter': ('integer', 100, None), 'tol': ('number', 1e-05, None)} req= ['seed_node']
+     {"status": "ok", "result": {"top_items": [{"id": "m1", "label": "Member 1 (instructor)", "score": 0.2664}, {"id": "m2", "label": "Member 2", "score": 0.0649}, {"id": "m3", "label": "Member 3", "score": 0.0549}, {"id": "m34", "label": "Member 34 (administrator)
+  c52598eb 0.008 {'node': ('string', None, None), 'top_k': ('integer', 10, None), 'alpha': ('number', 0.85, None)} req= ['node']
+     {"status": "ok", "result": [{"id": "m1", "label": "Member 1 (instructor)", "score": 0.266374}, {"id": "m2", "label": "Member 2", "score": 0.064888}, {"id": "m3", "label": "Member 3", "score": 0.054948}, {"id": "m34", "label": "Member 34 (administrator)", "scor
+  e1e14ad1 0.006 {'node': ('string', None, None), 'damping': ('number', 0.85, None), 'use_weights': ('boolean', False, None), 'include_source': ('boolean', False, None), 'top_k': ('integer', 10, None)} req= ['node']
+     {"status": "ok", "result": {"source": {"id": "m1", "label": "Member 1 (instructor)"}, "damping": 0.85, "weighted": false, "source_score": 0.266374, "scored_nodes": 33, "iterations": 69, "converged": true, "ranking": [{"id": "m2", "label": "Member 2", "score": 
+  e7c02e9e 0.008 {'node': ('string', None, None), 'seeds': ('array', None, None), 'damping': ('number', 0.85, None), 'top_k': ('integer', 10, None), 'use_weights': ('boolean', True, None), 'exclude_seeds': ('boolean', False, None)} req= []
+     {"status": "ok", "result": [{"id": "m1", "label": "Member 1 (instructor)", "score": 0.266374, "rank": 1}, {"id": "m2", "label": "Member 2", "score": 0.064888, "rank": 2}, {"id": "m3", "label": "Member 3", "score": 0.054948, "rank": 3}, {"id": "m34", "label": "
+
+##### reachability
+  7780ae37 0.002 {'source': ('string', None, None), 'target': ('string', None, None)} req= ['source', 'target']
+     {"status": "ok", "result": {"reachable": true, "source": {"id": "m1", "label": "Member 1 (instructor)"}, "target": {"id": "m34", "label": "Member 34 (administrator)"}, "hops": 2, "path": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m14", "label": "
+  7cc0c2d7 0.001 {'source': ('string', None, None), 'target': ('string', None, None)} req= ['source', 'target']
+     {"status": "ok", "result": {"source": {"id": "m1", "label": "Member 1 (instructor)"}, "target": {"id": "m2", "label": "Member 2"}, "reachable": true}, "summary": "m2 is reachable from m1.", "result_graph_id": null, "error": null}
+  91f2b762 0.254 {'source': ('string', None, None), 'target': ('string', None, None)} req= ['source', 'target']
+     {"status": "ok", "result": {"source": {"id": "MAA", "label": "Chennai International Airport"}, "target": {"id": "LIS", "label": "Humberto Delgado Airport (Lisbon Portela Airport)"}, "reachable": true, "hops": 2}, "summary": "Yes: Humberto Delgado Airport (Lisb
+  92711a92 0.272 {'source': ('string', None, None), 'target': ('string', None, None), 'ignore_direction': ('boolean', False, None)} req= ['source', 'target']
+     {"status": "ok", "result": {"reachable": true, "source": {"id": "MAA", "label": "Chennai International Airport"}, "target": {"id": "LIS", "label": "Humberto Delgado Airport (Lisbon Portela Airport)"}, "hops": 2, "path": [{"id": "MAA", "label": "Chennai Interna
+  f6f61ae0 0.258 {'source': ('string', None, None), 'target': ('string', None, None)} req= ['source', 'target']
+     {"status": "ok", "result": {"source": {"id": "MAA", "label": "Chennai International Airport"}, "target": {"id": "LIS", "label": "Humberto Delgado Airport (Lisbon Portela Airport)"}, "reachable": true}, "summary": "A path exists from Chennai International Airpo
+  fcd76f91 0.267 {'source': ('string', None, None), 'target': ('string', None, None), 'ignore_direction': ('boolean', False, None)} req= ['source', 'target']
+     {"status": "ok", "result": {"reachable": true, "source": {"id": "MAA", "label": "Chennai International Airport"}, "target": {"id": "LIS", "label": "Humberto Delgado Airport (Lisbon Portela Airport)"}, "hops": 2, "path": [{"id": "MAA", "label": "Chennai Interna
+
+##### shortest_path_unweighted
+  8809b513 0.284 {'source': ('string', None, None), 'target': ('string', None, None)} req= ['source', 'target']
+     {"status": "ok", "result": {"path": [{"id": "MAA", "label": "Chennai International Airport"}, {"id": "DXB", "label": "Dubai International Airport"}, {"id": "LIS", "label": "Humberto Delgado Airport (Lisbon Portela Airport)"}], "hops": 2}, "summary": "The fewes
+  8f0a9ac4 0.002 {'src': ('string', None, None), 'dest': ('string', None, None)} req= ['src', 'dest']
+     {"status": "ok", "result": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m9", "label": "Member 9"}, {"id": "m34", "label": "Member 34 (administrator)"}], "summary": "Shortest path from 'm1' to 'm34' is 2 edges long.", "result_graph_id": null, "error
+  96e40bd2 0.003 {'source': ('string', None, None), 'target': ('string', None, None)} req= ['source', 'target']
+     {"status": "ok", "result": [{"id": "m1", "label": "Member 1 (instructor)", "step": 0}, {"id": "m14", "label": "Member 14", "step": 1}, {"id": "m34", "label": "Member 34 (administrator)", "step": 2}], "summary": "The fewest hops from Member 1 (instructor) to Me
+  ae9bcafc 0.002 {'source': ('string', None, None), 'target': ('string', None, None)} req= ['source', 'target']
+     {"status": "ok", "result": {"source": {"id": "m1", "label": "Member 1 (instructor)"}, "target": {"id": "m34", "label": "Member 34 (administrator)"}, "path": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m14", "label": "Member 14"}, {"id": "m34", "la
+  edba08e8 0.003 {'source': ('string', None, None), 'target': ('string', None, None)} req= ['source', 'target']
+     {"status": "ok", "result": {"reachable": true, "hops": 2, "source": {"id": "m1", "label": "Member 1 (instructor)"}, "target": {"id": "m34", "label": "Member 34 (administrator)"}, "path": [{"id": "m1", "label": "Member 1 (instructor)"}, {"id": "m14", "label": "
+  f28f69d7 0.278 {'source': ('string', None, None), 'target': ('string', None, None)} req= ['source', 'target']
+     {"status": "ok", "result": {"path": [{"id": "MAA", "label": "Chennai International Airport"}, {"id": "DEL", "label": "Indira Gandhi International Airport"}], "hops": 1}, "summary": "The shortest path from Chennai International Airport (MAA) to Indira Gandhi In
+
+##### shortest_path_weighted
+  32016695 0.27 {'source': ('string', None, None), 'target': ('string', None, None), 'ignore_direction': ('boolean', False, None)} req= ['source', 'target']
+     {"status": "ok", "result": {"source": {"id": "MAA", "label": "Chennai International Airport"}, "target": {"id": "LIS", "label": "Humberto Delgado Airport (Lisbon Portela Airport)"}, "reachable": true, "distance": 9071.0, "hops": 2, "path": [{"id": "MAA", "labe
+  91f2b762 0.275 {'source': ('string', None, None), 'target': ('string', None, None)} req= ['source', 'target']
+     {"status": "ok", "result": {"source": {"id": "MAA", "label": "Chennai International Airport"}, "target": {"id": "LIS", "label": "Humberto Delgado Airport (Lisbon Portela Airport)"}, "distance": 9071.0, "hops": 2, "path": [{"id": "MAA", "label": "Chennai Intern
+  c4576e71 0.289 {'source': ('string', None, None), 'target': ('string', None, None)} req= ['source', 'target']
+     {"status": "ok", "result": {"source": {"id": "MAA", "label": "Chennai International Airport"}, "target": {"id": "LIS", "label": "Humberto Delgado Airport (Lisbon Portela Airport)"}, "distance": 9071.0, "hops": 2, "path": [{"id": "MAA", "label": "Chennai Intern
+  f897d4c5 0.313 {'source': ('string', None, None), 'target': ('string', None, None)} req= ['source', 'target']
+     {"status": "ok", "result": {"path": [{"id": "MAA", "label": "Chennai International Airport"}, {"id": "DEL", "label": "Indira Gandhi International Airport"}], "total_weight": 1761.0}, "summary": "Shortest path from 'MAA' to 'DEL' in graph 'airports' has total w
+
+##### strongly_connected_components
+  2f7893e5 0.464 {'top_k': ('integer', 10, None), 'node': ('string', None, None)} req= []
+     {"status": "ok", "result": {"num_components": 1, "largest_size": 500, "is_strongly_connected": true, "components": [{"rank": 1, "size": 500, "graph_id": "airports~1", "nodes": [{"id": "ABJ", "label": "Port Bouet Airport"}, {"id": "ABQ", "label": "Albuquerque I
+  80ae2fd8 0.277 {'top_k': ('integer', 10, None)} req= []
+     {"status": "ok", "result": {"graph_id": "airports", "number_of_components": 1, "returned_components": 1, "omitted_components": 0, "components": [{"component_id": 1, "size": 500, "nodes": [{"id": "ABJ", "label": "Port Bouet Airport"}, {"id": "ABQ", "label": "Al
+  e2346c64 0.45 {'top_k': ('integer', 10, None), 'node': ('string', None, None)} req= []
+     {"status": "ok", "result": {"num_components": 1, "largest_size": 500, "singleton_components": 0, "nontrivial_components": 1, "components": [{"rank": 1, "size": 500, "fraction": 1.0, "graph_id": "airports~1", "members": [{"id": "ABJ", "label": "Port Bouet Airpo
+  fcd76f91 0.477 {'top_k': ('integer', 10, None), 'node': ('string', None, None)} req= []
+     {"status": "ok", "result": {"num_components": 1, "largest_size": 500, "num_singletons": 0, "is_strongly_connected": true, "components": [{"rank": 1, "size": 500, "graph_id": "airports~1", "members": [{"id": "ABJ", "label": "Port Bouet Airport"}, {"id": "ABQ", 
+
+##### topological_sort
+  1e59ba80 0.002 {} req= []
+     {"status": "ok", "result": {"is_dag": true, "num_nodes": 21, "num_levels": 5, "order": [{"id": "CS101", "label": "Programming Basics", "position": 1, "level": 0}, {"id": "CS102", "label": "Data Structures", "position": 2, "level": 1}, {"id": "CS202", "label": 
+  63fb3e40 0.002 {'node': ('string', None, None), 'top_k': ('integer', 100, None)} req= []
+     {"status": "ok", "result": {"graph_id": "courses", "is_dag": true, "target": null, "number_of_nodes": 21, "number_of_stages": 5, "stage_sizes": [3, 5, 4, 5, 4], "order": [{"id": "CS101", "label": "Programming Basics", "position": 1, "stage": 1}, {"id": "MA101"
+  c1fb2ea9 0.002 {} req= []
+     {"status": "ok", "result": [{"id": "CS101", "label": "Programming Basics"}, {"id": "CS102", "label": "Data Structures"}, {"id": "CS202", "label": "Computer Organisation"}, {"id": "CS301", "label": "Operating Systems"}, {"id": "CS302", "label": "Databases"}, {"
+  c7c2ef65 0.001 {} req= []
+     {"status": "ok", "result": [{"id": "CS101", "label": "Programming Basics", "position": 1, "level": 0}, {"id": "CS102", "label": "Data Structures", "position": 2, "level": 1}, {"id": "CS202", "label": "Computer Organisation", "position": 3, "level": 1}, {"id": 
+  efd53284 0.001 {} req= []
+     {"status": "ok", "result": [{"id": "CS101", "label": "Programming Basics", "position": 1}, {"id": "CS102", "label": "Data Structures", "position": 2}, {"id": "CS202", "label": "Computer Organisation", "position": 3}, {"id": "CS301", "label": "Operating Systems

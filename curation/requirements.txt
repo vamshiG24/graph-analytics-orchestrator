@@ -1,0 +1,3 @@
+# Only needed to re-run the tool curation (curation/curate.py); the orchestrator does not use these.
+networkx>=3.0
+scipy>=1.10

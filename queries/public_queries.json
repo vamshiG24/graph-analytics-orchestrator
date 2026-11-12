@@ -1,0 +1,442 @@
+[
+  {
+    "query_id": "q01",
+    "question": "How many non-stop routes does the airport network have?",
+    "graph": "airports",
+    "kind": "single",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "number",
+        "value": 20058
+      }
+    },
+    "notes": ""
+  },
+  {
+    "query_id": "q02",
+    "question": "Which airport has the most non-stop routes, counting arrivals and departures?",
+    "graph": "airports",
+    "kind": "single",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "node",
+        "value": "FRA"
+      }
+    },
+    "notes": ""
+  },
+  {
+    "query_id": "q03",
+    "question": "What is the fewest number of flights needed to get from Chennai to Lisbon?",
+    "graph": "airports",
+    "kind": "single",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "number",
+        "value": 2
+      }
+    },
+    "notes": "Answer is the number of flights; several routes achieve it"
+  },
+  {
+    "query_id": "q04",
+    "question": "What is the shortest route by distance from Chennai to New York JFK?",
+    "graph": "airports",
+    "kind": "single",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "path",
+        "value": [
+          "MAA",
+          "DEL",
+          "JFK"
+        ]
+      }
+    },
+    "notes": ""
+  },
+  {
+    "query_id": "q05",
+    "question": "What are the top 5 airports by PageRank?",
+    "graph": "airports",
+    "kind": "single",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "node_list",
+        "value": [
+          "FRA",
+          "CDG",
+          "AMS",
+          "LHR",
+          "IST"
+        ]
+      },
+      "ordered": true
+    },
+    "notes": "Ranked: order matters"
+  },
+  {
+    "query_id": "q06",
+    "question": "Which 5 airports, other than Chennai itself, are most relevant to Chennai?",
+    "graph": "airports",
+    "kind": "single",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "node_list",
+        "value": [
+          "DXB",
+          "DOH",
+          "FRA",
+          "KUL",
+          "SIN"
+        ]
+      },
+      "ordered": true
+    },
+    "notes": "Ranked: order matters"
+  },
+  {
+    "query_id": "q07",
+    "question": "Can every airport in the network reach every other airport by some sequence of flights?",
+    "graph": "airports",
+    "kind": "single",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "boolean",
+        "value": true
+      }
+    },
+    "notes": ""
+  },
+  {
+    "query_id": "q08",
+    "question": "Who are the top 3 brokers between groups in the karate club?",
+    "graph": "karate",
+    "kind": "single",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "node_list",
+        "value": [
+          "m1",
+          "m34",
+          "m33"
+        ]
+      },
+      "ordered": true
+    },
+    "notes": "Ranked: order matters"
+  },
+  {
+    "query_id": "q09",
+    "question": "Which members of the karate club would split it into disconnected parts if they left?",
+    "graph": "karate",
+    "kind": "single",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "node_list",
+        "value": [
+          "m1"
+        ]
+      }
+    },
+    "notes": ""
+  },
+  {
+    "query_id": "q10",
+    "question": "How many members are in the largest group of the karate club in which everyone is friends with everyone else?",
+    "graph": "karate",
+    "kind": "single",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "number",
+        "value": 5
+      }
+    },
+    "notes": ""
+  },
+  {
+    "query_id": "q11",
+    "question": "How many independent friendship chains, sharing no friendship, connect the instructor and the administrator?",
+    "graph": "karate",
+    "kind": "single",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "number",
+        "value": 10
+      }
+    },
+    "notes": ""
+  },
+  {
+    "query_id": "q12",
+    "question": "What is the Jaccard similarity of Valjean's and Javert's connections?",
+    "graph": "lesmis",
+    "kind": "single",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "number",
+        "value": 0.4324
+      }
+    },
+    "notes": ""
+  },
+  {
+    "query_id": "q13",
+    "question": "Give an order in which all the courses can be taken.",
+    "graph": "courses",
+    "kind": "single",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "node_list",
+        "value": [
+          "CS101",
+          "MA101",
+          "MA102",
+          "CS102",
+          "CS202",
+          "MA201",
+          "MA202",
+          "CS203",
+          "CS201",
+          "CS302",
+          "CS301",
+          "CS303",
+          "CS304",
+          "CS305",
+          "CS306",
+          "CS307",
+          "CS401",
+          "CS402",
+          "CS405",
+          "CS403",
+          "CS404"
+        ]
+      },
+      "check": "topological_order"
+    },
+    "notes": "Many orders are correct: grade by checking that every prerequisite comes first"
+  },
+  {
+    "query_id": "q14",
+    "question": "What is the largest number of students who can each be assigned a different project?",
+    "graph": "projects",
+    "kind": "single",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "number",
+        "value": 9
+      }
+    },
+    "notes": ""
+  },
+  {
+    "query_id": "q15",
+    "question": "Which German airport has the most routes to other German airports?",
+    "graph": "airports",
+    "kind": "multi",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "node",
+        "value": "MUC"
+      }
+    },
+    "notes": ""
+  },
+  {
+    "query_id": "q16",
+    "question": "What is the total distance of the shortest network of routes connecting all Indian airports?",
+    "graph": "airports",
+    "kind": "multi",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "number",
+        "value": 4122
+      }
+    },
+    "notes": "Kilometres"
+  },
+  {
+    "query_id": "q17",
+    "question": "Among the karate instructor's friends, who has the most connections within the instructor's circle?",
+    "graph": "karate",
+    "kind": "multi",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "node",
+        "value": "m2"
+      }
+    },
+    "notes": ""
+  },
+  {
+    "query_id": "q18",
+    "question": "Within the United States, which airport lies on the most shortest routes between other US airports?",
+    "graph": "airports",
+    "kind": "multi",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "node",
+        "value": "ORD"
+      }
+    },
+    "notes": ""
+  },
+  {
+    "query_id": "q19",
+    "question": "When Girvan–Newman first splits the karate club into two groups, who is the most influential member of the larger group by PageRank?",
+    "graph": "karate",
+    "kind": "multi",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "node",
+        "value": "m34"
+      }
+    },
+    "notes": ""
+  },
+  {
+    "query_id": "q20",
+    "question": "What is the average clustering coefficient of the karate club's densest core?",
+    "graph": "karate",
+    "kind": "multi",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "number",
+        "value": 0.6457
+      }
+    },
+    "notes": ""
+  },
+  {
+    "query_id": "q21",
+    "question": "Apart from Valjean, who is the key broker in Valjean's immediate circle?",
+    "graph": "lesmis",
+    "kind": "multi",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "node",
+        "value": "c40"
+      }
+    },
+    "notes": ""
+  },
+  {
+    "query_id": "q22",
+    "question": "How many triangles are there in Javert's immediate circle?",
+    "graph": "lesmis",
+    "kind": "multi",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "number",
+        "value": 96
+      }
+    },
+    "notes": ""
+  },
+  {
+    "query_id": "q23",
+    "question": "Which has the higher closeness centrality, Delhi or Mumbai, and by how much?",
+    "graph": "airports",
+    "kind": "multi",
+    "expected": {
+      "status": "answered",
+      "answer": {
+        "type": "node",
+        "value": "DEL"
+      }
+    },
+    "notes": "Structured answer is the airport; the difference goes in answer_text"
+  },
+  {
+    "query_id": "q24",
+    "question": "Which node is the most important?",
+    "graph": "(none)",
+    "kind": "ambiguous",
+    "expected": {
+      "status": "clarification_needed"
+    },
+    "notes": "No graph is named"
+  },
+  {
+    "query_id": "q25",
+    "question": "What's the shortest route from Paris to Tokyo?",
+    "graph": "airports",
+    "kind": "ambiguous",
+    "expected": {
+      "status": "clarification_needed"
+    },
+    "notes": "Two airports per city (CDG/ORY, NRT/HND); fewest flights or least distance?"
+  },
+  {
+    "query_id": "q26",
+    "question": "How close are Marius and Cosette?",
+    "graph": "lesmis",
+    "kind": "ambiguous",
+    "expected": {
+      "status": "clarification_needed"
+    },
+    "notes": "Hops, shared chapters, or similar connections?"
+  },
+  {
+    "query_id": "q27",
+    "question": "What is the cheapest fare from Chennai to Delhi?",
+    "graph": "airports",
+    "kind": "unsupported",
+    "expected": {
+      "status": "unsupported"
+    },
+    "notes": "No prices in the data"
+  },
+  {
+    "query_id": "q28",
+    "question": "Which airline flies the most routes from Delhi?",
+    "graph": "airports",
+    "kind": "unsupported",
+    "expected": {
+      "status": "unsupported"
+    },
+    "notes": "No airline names in the data"
+  },
+  {
+    "query_id": "q29",
+    "question": "Which flights go from Chennai to Singapore next Tuesday?",
+    "graph": "airports",
+    "kind": "unsupported",
+    "expected": {
+      "status": "unsupported"
+    },
+    "notes": "No schedules; 2014 snapshot"
+  },
+  {
+    "query_id": "q30",
+    "question": "Is the karate network planar?",
+    "graph": "karate",
+    "kind": "unsupported",
+    "expected": {
+      "status": "unsupported"
+    },
+    "notes": "No tool computes planarity"
+  }
+]

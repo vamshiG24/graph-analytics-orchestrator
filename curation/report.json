@@ -1,0 +1,8307 @@
+{
+ "articulation_points_bridges": {
+  "winner": "3237bc9e",
+  "ranking": [
+   "3237bc9e",
+   "f6f61ae0",
+   "8f0a9ac4"
+  ],
+  "implementations": {
+   "3237bc9e": {
+    "path": "..\\tools\\articulation_points_bridges\\3237bc9e",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "aps 1/1 bridges 1/1",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "aps 8/8 bridges 18/18",
+      "time": 0.0
+     },
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "aps 8/8 bridges 12/12",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 491
+   },
+   "8f0a9ac4": {
+    "path": "..\\tools\\articulation_points_bridges\\8f0a9ac4",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "aps 1/1 bridges 1/1",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "aps 8/8 bridges 18/18",
+      "time": 0.0
+     },
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "aps 8/8 bridges 12/12",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 281
+   },
+   "f6f61ae0": {
+    "path": "..\\tools\\articulation_points_bridges\\f6f61ae0",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "aps 1/1 bridges 1/1",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "aps 8/8 bridges 18/18",
+      "time": 0.0
+     },
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "aps 8/8 bridges 12/12",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 389
+   }
+  }
+ },
+ "betweenness_centrality": {
+  "winner": "2f7893e5",
+  "ranking": [
+   "2f7893e5",
+   "fcd76f91",
+   "f6f61ae0",
+   "98eff80e",
+   "c1fb2ea9",
+   "7b0e9b7e",
+   "f897d4c5",
+   "d69742a9"
+  ],
+  "implementations": {
+   "2f7893e5": {
+    "path": "..\\tools\\betweenness_centrality\\2f7893e5",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.029
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.02928328514099121,
+    "deterministic": true,
+    "options": [
+     "node",
+     "normalized",
+     "weighted"
+    ],
+    "desc_len": 836
+   },
+   "7b0e9b7e": {
+    "path": "..\\tools\\betweenness_centrality\\7b0e9b7e",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.011
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.029
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.001
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.028679370880126953,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 713
+   },
+   "98eff80e": {
+    "path": "..\\tools\\betweenness_centrality\\98eff80e",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.045
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.04471325874328613,
+    "deterministic": true,
+    "options": [
+     "normalized",
+     "weighted"
+    ],
+    "desc_len": 356
+   },
+   "c1fb2ea9": {
+    "path": "..\\tools\\betweenness_centrality\\c1fb2ea9",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.006
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.043
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.015
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.042578697204589844,
+    "deterministic": true,
+    "options": [
+     "normalized"
+    ],
+    "desc_len": 304
+   },
+   "d69742a9": {
+    "path": "..\\tools\\betweenness_centrality\\d69742a9",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.005
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 0.05,
+      "note": "1/10 scores match, order WRONG",
+      "time": 0.07
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     }
+    ],
+    "score": 0.6833,
+    "max_time": 0.07042956352233887,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 340
+   },
+   "f6f61ae0": {
+    "path": "..\\tools\\betweenness_centrality\\f6f61ae0",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.033
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.032666683197021484,
+    "deterministic": true,
+    "options": [
+     "normalized",
+     "weighted"
+    ],
+    "desc_len": 419
+   },
+   "f897d4c5": {
+    "path": "..\\tools\\betweenness_centrality\\f897d4c5",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.016
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.032
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.03219175338745117,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 80
+   },
+   "fcd76f91": {
+    "path": "..\\tools\\betweenness_centrality\\fcd76f91",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.002
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.023
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.023492097854614258,
+    "deterministic": true,
+    "options": [
+     "node",
+     "normalized",
+     "weighted"
+    ],
+    "desc_len": 762
+   }
+  }
+ },
+ "bipartite_check": {
+  "winner": "6e31812a",
+  "ranking": [
+   "6e31812a",
+   "7780ae37",
+   "62a230f4",
+   "3c8c3c69"
+  ],
+  "implementations": {
+   "3c8c3c69": {
+    "path": "..\\tools\\bipartite_check\\3c8c3c69",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": false,
+    "options": [],
+    "desc_len": 771
+   },
+   "62a230f4": {
+    "path": "..\\tools\\bipartite_check\\62a230f4",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.001
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0010874271392822266,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 368
+   },
+   "6e31812a": {
+    "path": "..\\tools\\bipartite_check\\6e31812a",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 684
+   },
+   "7780ae37": {
+    "path": "..\\tools\\bipartite_check\\7780ae37",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 608
+   }
+  }
+ },
+ "bipartite_matching": {
+  "winner": "3f28ff34",
+  "ranking": [
+   "3f28ff34",
+   "d02c8330",
+   "f9857550",
+   "c52598eb",
+   "e2346c64",
+   "54d073a3",
+   "8809b513",
+   "8f0a9ac4"
+  ],
+  "implementations": {
+   "3f28ff34": {
+    "path": "..\\tools\\bipartite_matching\\3f28ff34",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "size 9",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "non-bipartite graph should error",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 878
+   },
+   "54d073a3": {
+    "path": "..\\tools\\bipartite_matching\\54d073a3",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "size 9",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "non-bipartite graph should error",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 593
+   },
+   "8809b513": {
+    "path": "..\\tools\\bipartite_matching\\8809b513",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects"
+      },
+      "score": 1.0,
+      "note": "size 9",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "non-bipartite graph should error",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 489
+   },
+   "8f0a9ac4": {
+    "path": "..\\tools\\bipartite_matching\\8f0a9ac4",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "size 9",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "non-bipartite graph should error",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 342
+   },
+   "c52598eb": {
+    "path": "..\\tools\\bipartite_matching\\c52598eb",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects"
+      },
+      "score": 1.0,
+      "note": "size 9",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "non-bipartite graph should error",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 658
+   },
+   "d02c8330": {
+    "path": "..\\tools\\bipartite_matching\\d02c8330",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "size 9",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "non-bipartite graph should error",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 761
+   },
+   "e2346c64": {
+    "path": "..\\tools\\bipartite_matching\\e2346c64",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "size 9",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "non-bipartite graph should error",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 652
+   },
+   "f9857550": {
+    "path": "..\\tools\\bipartite_matching\\f9857550",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "size 9",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "non-bipartite graph should error",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 696
+   }
+  }
+ },
+ "closeness_centrality": {
+  "winner": "7065a2b5",
+  "ranking": [
+   "7065a2b5",
+   "7b0e9b7e",
+   "64036f4f",
+   "7cc0c2d7",
+   "afc500fb"
+  ],
+  "implementations": {
+   "64036f4f": {
+    "path": "..\\tools\\closeness_centrality\\64036f4f",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.016
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm34'}",
+      "score": 0.0,
+      "note": "unsupported arguments"
+     }
+    ],
+    "score": 0.75,
+    "max_time": 0.015615463256835938,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 312
+   },
+   "7065a2b5": {
+    "path": "..\\tools\\closeness_centrality\\7065a2b5",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.016
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m34",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "node m34",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.015641212463378906,
+    "deterministic": true,
+    "options": [
+     "direction",
+     "node",
+     "weighted"
+    ],
+    "desc_len": 822
+   },
+   "7b0e9b7e": {
+    "path": "..\\tools\\closeness_centrality\\7b0e9b7e",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.001
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.009
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm34'}",
+      "score": 0.0,
+      "note": "unsupported arguments"
+     }
+    ],
+    "score": 0.75,
+    "max_time": 0.008801460266113281,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 757
+   },
+   "7cc0c2d7": {
+    "path": "..\\tools\\closeness_centrality\\7cc0c2d7",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.01
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "0/10 scores match, order WRONG",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm34'}",
+      "score": 0.0,
+      "note": "unsupported arguments"
+     }
+    ],
+    "score": 0.5,
+    "max_time": 0.01008296012878418,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 228
+   },
+   "afc500fb": {
+    "path": "..\\tools\\closeness_centrality\\afc500fb",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 0.0,
+      "note": "tool error: Node 'None' (parameter 'node') is not in graph 'karate'. Use lookup_node to find node ids.",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis"
+      },
+      "score": 0.0,
+      "note": "tool error: Node 'None' (parameter 'node') is not in graph 'lesmis'. Use lookup_node to find node ids.",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses"
+      },
+      "score": 0.0,
+      "note": "tool error: Node 'None' (parameter 'node') is not in graph 'courses'. Use lookup_node to find node ids.",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m34"
+      },
+      "score": 1.0,
+      "note": "node m34",
+      "time": 0.0
+     }
+    ],
+    "score": 0.25,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 457
+   }
+  }
+ },
+ "clustering_coefficient": {
+  "winner": "da50612d",
+  "ranking": [
+   "da50612d",
+   "6ae0e02c",
+   "d02c8330",
+   "7b0e9b7e",
+   "3ddaa37e",
+   "7065a2b5",
+   "219c8a12"
+  ],
+  "implementations": {
+   "219c8a12": {
+    "path": "..\\tools\\clustering_coefficient\\219c8a12",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "avg 0.570638",
+      "time": 0.001
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "avg 0.573137",
+      "time": 0.004
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "node 0.150000",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'node': 'c74'}",
+      "args": {
+       "graph_id": "lesmis",
+       "node": "c74",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "node 0.120635",
+      "time": 0.002
+     }
+    ],
+    "score": 0.5,
+    "max_time": 0.004003286361694336,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 765
+   },
+   "3ddaa37e": {
+    "path": "..\\tools\\clustering_coefficient\\3ddaa37e",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "avg 0.570638",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "avg 0.573137",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "node 0.150000",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'node': 'c74'}",
+      "args": {
+       "graph_id": "lesmis",
+       "node": "c74",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "node 0.120635",
+      "time": 0.002
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0020227432250976562,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 364
+   },
+   "6ae0e02c": {
+    "path": "..\\tools\\clustering_coefficient\\6ae0e02c",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "avg 0.570638",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "avg 0.573137",
+      "time": 0.014
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "node 0.150000",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'node': 'c74'}",
+      "args": {
+       "graph_id": "lesmis",
+       "node": "c74",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "node 0.120635",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.014035701751708984,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 693
+   },
+   "7065a2b5": {
+    "path": "..\\tools\\clustering_coefficient\\7065a2b5",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "avg 0.570638",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "avg 0.573137",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "node 0.150000",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'node': 'c74'}",
+      "args": {
+       "graph_id": "lesmis",
+       "node": "c74",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "node 0.120635",
+      "time": 0.007
+     }
+    ],
+    "score": 0.5,
+    "max_time": 0.006551980972290039,
+    "deterministic": true,
+    "options": [
+     "node",
+     "weighted"
+    ],
+    "desc_len": 807
+   },
+   "7b0e9b7e": {
+    "path": "..\\tools\\clustering_coefficient\\7b0e9b7e",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "avg 0.570638",
+      "time": 0.007
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "avg 0.573137",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "node 0.150000",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'node': 'c74'}",
+      "args": {
+       "graph_id": "lesmis",
+       "node": "c74",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "node 0.120635",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0071566104888916016,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 609
+   },
+   "d02c8330": {
+    "path": "..\\tools\\clustering_coefficient\\d02c8330",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "avg 0.570638",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "avg 0.573137",
+      "time": 0.012
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "node 0.150000",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'node': 'c74'}",
+      "args": {
+       "graph_id": "lesmis",
+       "node": "c74",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "node 0.120635",
+      "time": 0.002
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.011519432067871094,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 632
+   },
+   "da50612d": {
+    "path": "..\\tools\\clustering_coefficient\\da50612d",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "avg 0.570638",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "avg 0.573137",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "node 0.150000",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'node': 'c74'}",
+      "args": {
+       "graph_id": "lesmis",
+       "node": "c74",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "node 0.120635",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "node",
+     "weighted"
+    ],
+    "desc_len": 779
+   }
+  }
+ },
+ "connected_components": {
+  "winner": "e2346c64",
+  "ranking": [
+   "e2346c64",
+   "f9857550",
+   "3237bc9e",
+   "4ebce3f0",
+   "1e59ba80",
+   "991d1029",
+   "37c243f2"
+  ],
+  "implementations": {
+   "1e59ba80": {
+    "path": "..\\tools\\connected_components\\1e59ba80",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1, sets ok",
+      "time": 0.0
+     },
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects"
+      },
+      "score": 1.0,
+      "note": "count 2 vs 2, sets ok",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses"
+      },
+      "score": 0.0,
+      "note": "tool error: Graph 'courses' is directed, but connected_components works on undirected graphs only. Use strongly_connected_components for directed graphs, or list_",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports"
+      },
+      "score": 0.0,
+      "note": "tool error: Graph 'airports' is directed, but connected_components works on undirected graphs only. Use strongly_connected_components for directed graphs, or list",
+      "time": 0.0
+     }
+    ],
+    "score": 0.5,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 764
+   },
+   "3237bc9e": {
+    "path": "..\\tools\\connected_components\\3237bc9e",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1, sets ok",
+      "time": 0.001
+     },
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 2 vs 2, sets ok",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1, sets ok",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1, sets ok",
+      "time": 0.203
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.20340394973754883,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 569
+   },
+   "37c243f2": {
+    "path": "..\\tools\\connected_components\\37c243f2",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1, sets ok",
+      "time": 0.0
+     },
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects"
+      },
+      "score": 1.0,
+      "note": "count 2 vs 2, sets ok",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses"
+      },
+      "score": 0.0,
+      "note": "tool error: connected_components requires an undirected graph.",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports"
+      },
+      "score": 0.0,
+      "note": "tool error: connected_components requires an undirected graph.",
+      "time": 0.0
+     }
+    ],
+    "score": 0.5,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 249
+   },
+   "4ebce3f0": {
+    "path": "..\\tools\\connected_components\\4ebce3f0",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1, sets ok",
+      "time": 0.0
+     },
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 2 vs 2, sets ok",
+      "time": 0.016
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1, sets ok",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1, sets ok",
+      "time": 0.223
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.22260022163391113,
+    "deterministic": false,
+    "options": [
+     "node"
+    ],
+    "desc_len": 754
+   },
+   "991d1029": {
+    "path": "..\\tools\\connected_components\\991d1029",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1, sets ok",
+      "time": 0.0
+     },
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 2 vs 2, sets ok",
+      "time": 0.006
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "tool error: Graph 'courses' is directed; connected_components needs an undirected graph. Use strongly_connected_components for directed graphs, or pick an undirec",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "tool error: Graph 'airports' is directed; connected_components needs an undirected graph. Use strongly_connected_components for directed graphs, or pick an undire",
+      "time": 0.0
+     }
+    ],
+    "score": 0.5,
+    "max_time": 0.005966663360595703,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 628
+   },
+   "e2346c64": {
+    "path": "..\\tools\\connected_components\\e2346c64",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1, sets ok",
+      "time": 0.006
+     },
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 2 vs 2, sets ok",
+      "time": 0.001
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1, sets ok",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1, sets ok",
+      "time": 0.201
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.20072054862976074,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 671
+   },
+   "f9857550": {
+    "path": "..\\tools\\connected_components\\f9857550",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1, sets ok",
+      "time": 0.0
+     },
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 2 vs 2, sets ok",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1, sets ok",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1, sets ok",
+      "time": 0.225
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.22547626495361328,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 662
+   }
+  }
+ },
+ "degree_centrality": {
+  "winner": "c52598eb",
+  "ranking": [
+   "c52598eb",
+   "54d073a3",
+   "62a230f4",
+   "a018559c",
+   "f897d4c5"
+  ],
+  "implementations": {
+   "54d073a3": {
+    "path": "..\\tools\\degree_centrality\\54d073a3",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.006
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.01
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.010151863098144531,
+    "deterministic": true,
+    "options": [
+     "direction"
+    ],
+    "desc_len": 583
+   },
+   "62a230f4": {
+    "path": "..\\tools\\degree_centrality\\62a230f4",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.016
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.016194820404052734,
+    "deterministic": true,
+    "options": [
+     "mode"
+    ],
+    "desc_len": 372
+   },
+   "a018559c": {
+    "path": "..\\tools\\degree_centrality\\a018559c",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.002
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.009
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.02
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.02023148536682129,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 244
+   },
+   "c52598eb": {
+    "path": "..\\tools\\degree_centrality\\c52598eb",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "direction"
+    ],
+    "desc_len": 612
+   },
+   "f897d4c5": {
+    "path": "..\\tools\\degree_centrality\\f897d4c5",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "0/10 scores match, order WRONG",
+      "time": 0.016
+     }
+    ],
+    "score": 0.6667,
+    "max_time": 0.016127824783325195,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 79
+   }
+  }
+ },
+ "degree_distribution": {
+  "winner": "c7c2ef65",
+  "ranking": [
+   "c7c2ef65",
+   "6e31812a",
+   "f3b11984",
+   "c4576e71",
+   "63fb3e40",
+   "c1fb2ea9",
+   "efd53284"
+  ],
+  "implementations": {
+   "63fb3e40": {
+    "path": "..\\tools\\degree_distribution\\63fb3e40",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "mean 4.588, max 17",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports"
+      },
+      "score": 1.0,
+      "note": "mean 80.232, max 423",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 747
+   },
+   "6e31812a": {
+    "path": "..\\tools\\degree_distribution\\6e31812a",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "mean 4.588, max 17",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports"
+      },
+      "score": 1.0,
+      "note": "mean 80.232, max 423",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "mode"
+    ],
+    "desc_len": 825
+   },
+   "c1fb2ea9": {
+    "path": "..\\tools\\degree_distribution\\c1fb2ea9",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 0.5,
+      "note": "mean 4.588, max 17",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports"
+      },
+      "score": 0.5,
+      "note": "mean 80.232, max 423",
+      "time": 0.0
+     }
+    ],
+    "score": 0.5,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 489
+   },
+   "c4576e71": {
+    "path": "..\\tools\\degree_distribution\\c4576e71",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "mean 4.588, max 17",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports"
+      },
+      "score": 1.0,
+      "note": "mean 80.232, max 423",
+      "time": 0.003
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0031981468200683594,
+    "deterministic": true,
+    "options": [
+     "mode"
+    ],
+    "desc_len": 626
+   },
+   "c7c2ef65": {
+    "path": "..\\tools\\degree_distribution\\c7c2ef65",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "mean 4.588, max 17",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports"
+      },
+      "score": 1.0,
+      "note": "mean 80.232, max 423",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "mode"
+    ],
+    "desc_len": 858
+   },
+   "efd53284": {
+    "path": "..\\tools\\degree_distribution\\efd53284",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 0.0,
+      "note": "mean 4.588, max 17",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports"
+      },
+      "score": 0.0,
+      "note": "mean 80.232, max 423",
+      "time": 0.016
+     }
+    ],
+    "score": 0.0,
+    "max_time": 0.015834569931030273,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 457
+   },
+   "f3b11984": {
+    "path": "..\\tools\\degree_distribution\\f3b11984",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "mean 4.588, max 17",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "mean 80.232, max 423",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "mode"
+    ],
+    "desc_len": 634
+   }
+  }
+ },
+ "diameter_eccentricity": {
+  "winner": "991d1029",
+  "ranking": [
+   "991d1029",
+   "ae9bcafc",
+   "ab9fb3a3",
+   "d69742a9"
+  ],
+  "implementations": {
+   "991d1029": {
+    "path": "..\\tools\\diameter_eccentricity\\991d1029",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "diameter 5 radius 3",
+      "time": 0.01
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "diameter 5 radius 3",
+      "time": 0.002
+     },
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "disconnected",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m34",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "ecc m34 4, got 4",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.010114908218383789,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 778
+   },
+   "ab9fb3a3": {
+    "path": "..\\tools\\diameter_eccentricity\\ab9fb3a3",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "diameter 5 radius 3",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "diameter 5 radius 3",
+      "time": 0.015
+     },
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "disconnected",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm34'}",
+      "score": 0.0,
+      "note": "unsupported arguments"
+     }
+    ],
+    "score": 0.75,
+    "max_time": 0.014946937561035156,
+    "deterministic": true,
+    "options": [
+     "use_weights"
+    ],
+    "desc_len": 498
+   },
+   "ae9bcafc": {
+    "path": "..\\tools\\diameter_eccentricity\\ae9bcafc",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "diameter 5 radius 3",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "diameter 5 radius 3",
+      "time": 0.016
+     },
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "disconnected",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m34",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "ecc m34 4, got 4",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.015956640243530273,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 347
+   },
+   "d69742a9": {
+    "path": "..\\tools\\diameter_eccentricity\\d69742a9",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "diameter 5 radius 3",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 0.3,
+      "note": "diameter 5 radius 3",
+      "time": 0.047
+     },
+     {
+      "case": "projects {'graph_id': 'projects'}",
+      "args": {
+       "graph_id": "projects",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "disconnected",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm34'}",
+      "score": 0.0,
+      "note": "unsupported arguments"
+     }
+    ],
+    "score": 0.575,
+    "max_time": 0.047055959701538086,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 377
+   }
+  }
+ },
+ "ego_network": {
+  "winner": "d35c782d",
+  "ranking": [
+   "d35c782d",
+   "51616f3b",
+   "afc500fb",
+   "b2d75536",
+   "e1e14ad1",
+   "98eff80e"
+  ],
+  "implementations": {
+   "51616f3b": {
+    "path": "..\\tools\\ego_network\\51616f3b",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "sizes out 17 both 17 got [17]",
+      "time": 0.016
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA'}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "sizes out 29 both 29 got [29]",
+      "time": 0.01
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'node': 'CS201'}",
+      "args": {
+       "graph_id": "courses",
+       "node": "CS201",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "sizes out 5 both 7 got [5]",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.016103029251098633,
+    "deterministic": true,
+    "options": [
+     "direction",
+     "node"
+    ],
+    "desc_len": 547
+   },
+   "98eff80e": {
+    "path": "..\\tools\\ego_network\\98eff80e",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "sizes out 17 both 17 got [17]",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA'}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "sizes out 29 both 29 got [29]",
+      "time": 0.016
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'node': 'CS201'}",
+      "args": {
+       "graph_id": "courses",
+       "node": "CS201",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "sizes out 5 both 7 got [5]",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.015753507614135742,
+    "deterministic": false,
+    "options": [
+     "node"
+    ],
+    "desc_len": 356
+   },
+   "afc500fb": {
+    "path": "..\\tools\\ego_network\\afc500fb",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1"
+      },
+      "score": 1.0,
+      "note": "sizes out 17 both 17 got [17]",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA'}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA"
+      },
+      "score": 1.0,
+      "note": "sizes out 29 both 29 got [29]",
+      "time": 0.012
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'node': 'CS201'}",
+      "args": {
+       "graph_id": "courses",
+       "node": "CS201"
+      },
+      "score": 1.0,
+      "note": "sizes out 5 both 7 got [7]",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.011779308319091797,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 372
+   },
+   "b2d75536": {
+    "path": "..\\tools\\ego_network\\b2d75536",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "sizes out 17 both 17 got [17]",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA'}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "sizes out 29 both 29 got [29]",
+      "time": 0.018
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'node': 'CS201'}",
+      "args": {
+       "graph_id": "courses",
+       "node": "CS201",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "sizes out 5 both 7 got [7]",
+      "time": 0.001
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.01763463020324707,
+    "deterministic": false,
+    "options": [
+     "direction",
+     "node"
+    ],
+    "desc_len": 842
+   },
+   "d35c782d": {
+    "path": "..\\tools\\ego_network\\d35c782d",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "sizes out 17 both 17 got [17]",
+      "time": 0.012
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA'}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "sizes out 29 both 29 got [29]",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'node': 'CS201'}",
+      "args": {
+       "graph_id": "courses",
+       "node": "CS201",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "sizes out 5 both 7 got [5]",
+      "time": 0.016
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.015651226043701172,
+    "deterministic": true,
+    "options": [
+     "direction",
+     "node"
+    ],
+    "desc_len": 996
+   },
+   "e1e14ad1": {
+    "path": "..\\tools\\ego_network\\e1e14ad1",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "sizes out 17 both 17 got [17]",
+      "time": 0.001
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA'}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "sizes out 29 both 29 got [29]",
+      "time": 0.001
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'node': 'CS201'}",
+      "args": {
+       "graph_id": "courses",
+       "node": "CS201",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "sizes out 5 both 7 got [7]",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0010001659393310547,
+    "deterministic": false,
+    "options": [
+     "direction",
+     "node"
+    ],
+    "desc_len": 542
+   }
+  }
+ },
+ "girvan_newman": {
+  "winner": "c7c2ef65",
+  "ranking": [
+   "c7c2ef65",
+   "d35c782d",
+   "3237bc9e",
+   "219c8a12",
+   "3c8c3c69",
+   "80ae2fd8",
+   "64036f4f",
+   "afc500fb"
+  ],
+  "implementations": {
+   "219c8a12": {
+    "path": "..\\tools\\girvan_newman\\219c8a12",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4013 (louvain best 0.4198)",
+      "time": 0.11
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4777 (louvain best 0.5667)",
+      "time": 1.13
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'num_communities': 2}",
+      "args": {
+       "graph_id": "karate",
+       "num_communities": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "first split of karate",
+      "time": 0.079
+     }
+    ],
+    "score": 1.0,
+    "max_time": 1.1303629875183105,
+    "deterministic": false,
+    "options": [
+     "num_communities",
+     "weighted"
+    ],
+    "desc_len": 1010
+   },
+   "3237bc9e": {
+    "path": "..\\tools\\girvan_newman\\3237bc9e",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4013 (louvain best 0.4198)",
+      "time": 0.16
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4777 (louvain best 0.5667)",
+      "time": 1.703
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'num_communities': 2}",
+      "args": {
+       "graph_id": "karate",
+       "num_communities": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "first split of karate",
+      "time": 0.064
+     }
+    ],
+    "score": 1.0,
+    "max_time": 1.703275203704834,
+    "deterministic": true,
+    "options": [
+     "num_communities"
+    ],
+    "desc_len": 727
+   },
+   "3c8c3c69": {
+    "path": "..\\tools\\girvan_newman\\3c8c3c69",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4013 (louvain best 0.4198)",
+      "time": 0.11
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4777 (louvain best 0.5667)",
+      "time": 1.128
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'num_communities': 2}",
+      "args": {
+       "graph_id": "karate",
+       "num_communities": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "first split of karate",
+      "time": 0.08
+     }
+    ],
+    "score": 1.0,
+    "max_time": 1.1280620098114014,
+    "deterministic": false,
+    "options": [
+     "num_communities"
+    ],
+    "desc_len": 939
+   },
+   "64036f4f": {
+    "path": "..\\tools\\girvan_newman\\64036f4f",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "modularity 0.3600 (louvain best 0.4198)",
+      "time": 0.127
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis"
+      },
+      "score": 0.217,
+      "note": "modularity 0.0739 (louvain best 0.5667)",
+      "time": 0.191
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'num_communities': 2}",
+      "args": {
+       "graph_id": "karate",
+       "num_communities": 2
+      },
+      "score": 1.0,
+      "note": "first split of karate",
+      "time": 0.095
+     }
+    ],
+    "score": 0.7391,
+    "max_time": 0.19123053550720215,
+    "deterministic": true,
+    "options": [
+     "num_communities"
+    ],
+    "desc_len": 295
+   },
+   "80ae2fd8": {
+    "path": "..\\tools\\girvan_newman\\80ae2fd8",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.3600 (louvain best 0.4198)",
+      "time": 0.094
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 0.217,
+      "note": "modularity 0.0739 (louvain best 0.5667)",
+      "time": 0.177
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'num_communities': 2}",
+      "args": {
+       "graph_id": "karate",
+       "num_communities": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "first split of karate",
+      "time": 0.095
+     }
+    ],
+    "score": 0.7391,
+    "max_time": 0.17694520950317383,
+    "deterministic": true,
+    "options": [
+     "num_communities"
+    ],
+    "desc_len": 362
+   },
+   "afc500fb": {
+    "path": "..\\tools\\girvan_newman\\afc500fb",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "modularity 0.3600 (louvain best 0.4198)",
+      "time": 0.128
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis"
+      },
+      "score": 0.217,
+      "note": "modularity 0.0739 (louvain best 0.5667)",
+      "time": 0.193
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'num_communities': 2}",
+      "args": {
+       "graph_id": "karate",
+       "communities": 2
+      },
+      "score": 1.0,
+      "note": "first split of karate",
+      "time": 0.111
+     }
+    ],
+    "score": 0.7391,
+    "max_time": 0.1931154727935791,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 459
+   },
+   "c7c2ef65": {
+    "path": "..\\tools\\girvan_newman\\c7c2ef65",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4013 (louvain best 0.4198)",
+      "time": 0.09
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4777 (louvain best 0.5667)",
+      "time": 0.979
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'num_communities': 2}",
+      "args": {
+       "graph_id": "karate",
+       "num_communities": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "first split of karate",
+      "time": 0.048
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.9794974327087402,
+    "deterministic": true,
+    "options": [
+     "num_communities"
+    ],
+    "desc_len": 943
+   },
+   "d35c782d": {
+    "path": "..\\tools\\girvan_newman\\d35c782d",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4013 (louvain best 0.4198)",
+      "time": 0.108
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4777 (louvain best 0.5667)",
+      "time": 1.329
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'num_communities': 2}",
+      "args": {
+       "graph_id": "karate",
+       "n_communities": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "first split of karate",
+      "time": 0.089
+     }
+    ],
+    "score": 1.0,
+    "max_time": 1.3290951251983643,
+    "deterministic": true,
+    "options": [
+     "use_weights"
+    ],
+    "desc_len": 908
+   }
+  }
+ },
+ "graph_summary": {
+  "winner": "a20d8c29",
+  "ranking": [
+   "a20d8c29",
+   "2f7893e5",
+   "41c8e8e2",
+   "80ae2fd8",
+   "64036f4f",
+   "5c98c8eb"
+  ],
+  "implementations": {
+   "2f7893e5": {
+    "path": "..\\tools\\graph_summary\\2f7893e5",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "n=34 m=78 density=0.139037",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis"
+      },
+      "score": 1.0,
+      "note": "n=77 m=254 density=0.086808",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports"
+      },
+      "score": 1.0,
+      "note": "n=500 m=20058 density=0.080393",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses"
+      },
+      "score": 1.0,
+      "note": "n=21 m=29 density=0.069048",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 689
+   },
+   "41c8e8e2": {
+    "path": "..\\tools\\graph_summary\\41c8e8e2",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "n=34 m=78 density=0.139037",
+      "time": 0.001
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis"
+      },
+      "score": 1.0,
+      "note": "n=77 m=254 density=0.086808",
+      "time": 0.002
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports"
+      },
+      "score": 1.0,
+      "note": "n=500 m=20058 density=0.080393",
+      "time": 0.048
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses"
+      },
+      "score": 1.0,
+      "note": "n=21 m=29 density=0.069048",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.04813241958618164,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 472
+   },
+   "5c98c8eb": {
+    "path": "..\\tools\\graph_summary\\5c98c8eb",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "n=34 m=78 density=0.139037",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis"
+      },
+      "score": 1.0,
+      "note": "n=77 m=254 density=0.086808",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports"
+      },
+      "score": 1.0,
+      "note": "n=500 m=20058 density=0.080393",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses"
+      },
+      "score": 1.0,
+      "note": "n=21 m=29 density=0.069048",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 140
+   },
+   "64036f4f": {
+    "path": "..\\tools\\graph_summary\\64036f4f",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "n=34 m=78 density=0.139037",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis"
+      },
+      "score": 1.0,
+      "note": "n=77 m=254 density=0.086808",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports"
+      },
+      "score": 1.0,
+      "note": "n=500 m=20058 density=0.080393",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses"
+      },
+      "score": 1.0,
+      "note": "n=21 m=29 density=0.069048",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 221
+   },
+   "80ae2fd8": {
+    "path": "..\\tools\\graph_summary\\80ae2fd8",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "n=34 m=78 density=0.139037",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis"
+      },
+      "score": 1.0,
+      "note": "n=77 m=254 density=0.086808",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports"
+      },
+      "score": 1.0,
+      "note": "n=500 m=20058 density=0.080393",
+      "time": 0.032
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses"
+      },
+      "score": 1.0,
+      "note": "n=21 m=29 density=0.069048",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.03158378601074219,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 369
+   },
+   "a20d8c29": {
+    "path": "..\\tools\\graph_summary\\a20d8c29",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "n=34 m=78 density=0.139037",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis"
+      },
+      "score": 1.0,
+      "note": "n=77 m=254 density=0.086808",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports"
+      },
+      "score": 1.0,
+      "note": "n=500 m=20058 density=0.080393",
+      "time": 0.016
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses"
+      },
+      "score": 1.0,
+      "note": "n=21 m=29 density=0.069048",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.015884876251220703,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 707
+   }
+  }
+ },
+ "greedy_coloring": {
+  "winner": "4ebce3f0",
+  "ranking": [
+   "4ebce3f0",
+   "54d073a3",
+   "8809b513",
+   "f28f69d7"
+  ],
+  "implementations": {
+   "4ebce3f0": {
+    "path": "..\\tools\\greedy_coloring\\4ebce3f0",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "colours 5 (nx 5, clique bound 5)",
+      "time": 0.013
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "colours 10 (nx 10, clique bound 10)",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.013321399688720703,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 687
+   },
+   "54d073a3": {
+    "path": "..\\tools\\greedy_coloring\\54d073a3",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "colours 5 (nx 5, clique bound 5)",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "colours 10 (nx 10, clique bound 10)",
+      "time": 0.012
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.012152671813964844,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 645
+   },
+   "8809b513": {
+    "path": "..\\tools\\greedy_coloring\\8809b513",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "colours 5 (nx 5, clique bound 5)",
+      "time": 0.001
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "colours 10 (nx 10, clique bound 10)",
+      "time": 0.001
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0009996891021728516,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 439
+   },
+   "f28f69d7": {
+    "path": "..\\tools\\greedy_coloring\\f28f69d7",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "colours 5 (nx 5, clique bound 5)",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "colours 10 (nx 10, clique bound 10)",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 419
+   }
+  }
+ },
+ "hits": {
+  "winner": "219c8a12",
+  "ranking": [
+   "219c8a12",
+   "a20d8c29",
+   "f9857550",
+   "98eff80e"
+  ],
+  "implementations": {
+   "219c8a12": {
+    "path": "..\\tools\\hits\\219c8a12",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "hub: 10/10 scores match, order ok",
+      "time": 0.004
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "hub: 10/10 scores match, order ok",
+      "time": 0.043
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.04308152198791504,
+    "deterministic": true,
+    "options": [
+     "normalized",
+     "score",
+     "weighted"
+    ],
+    "desc_len": 846
+   },
+   "98eff80e": {
+    "path": "..\\tools\\hits\\98eff80e",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "hub_score: 10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "",
+      "time": 0.032
+     }
+    ],
+    "score": 0.5,
+    "max_time": 0.031783103942871094,
+    "deterministic": true,
+    "options": [
+     "normalized",
+     "score_type",
+     "weighted"
+    ],
+    "desc_len": 347
+   },
+   "a20d8c29": {
+    "path": "..\\tools\\hits\\a20d8c29",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "authority: 10/10 scores match, order ok",
+      "time": 0.016
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "authority: 10/10 scores match, order ok",
+      "time": 0.048
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.04767870903015137,
+    "deterministic": true,
+    "options": [
+     "rank_by",
+     "use_weights"
+    ],
+    "desc_len": 809
+   },
+   "f9857550": {
+    "path": "..\\tools\\hits\\f9857550",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "authority: 10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "authority: 10/10 scores match, order ok",
+      "time": 0.057
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.05691695213317871,
+    "deterministic": true,
+    "options": [
+     "sort_by",
+     "use_weights"
+    ],
+    "desc_len": 637
+   }
+  }
+ },
+ "k_core": {
+  "winner": "d02c8330",
+  "ranking": [
+   "d02c8330",
+   "51616f3b",
+   "3f28ff34",
+   "b2d75536"
+  ],
+  "implementations": {
+   "3f28ff34": {
+    "path": "..\\tools\\k_core\\3f28ff34",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "max core 4 size 10",
+      "time": 0.008
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "max core 9 size 12",
+      "time": 0.002
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'k': 2}",
+      "args": {
+       "graph_id": "karate",
+       "k": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "2-core size 33",
+      "time": 0.001
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.00849151611328125,
+    "deterministic": true,
+    "options": [
+     "k"
+    ],
+    "desc_len": 774
+   },
+   "51616f3b": {
+    "path": "..\\tools\\k_core\\51616f3b",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "max core 4 size 10",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "max core 9 size 12",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'k': 2}",
+      "args": {
+       "graph_id": "karate",
+       "k": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "2-core size 33",
+      "time": 0.017
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.016504287719726562,
+    "deterministic": true,
+    "options": [
+     "k",
+     "mode"
+    ],
+    "desc_len": 545
+   },
+   "b2d75536": {
+    "path": "..\\tools\\k_core\\b2d75536",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "max core 4 size 10",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "max core 9 size 12",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'k': 2}",
+      "args": {
+       "graph_id": "karate",
+       "k": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "2-core size 33",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": false,
+    "options": [
+     "k"
+    ],
+    "desc_len": 866
+   },
+   "d02c8330": {
+    "path": "..\\tools\\k_core\\d02c8330",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "max core 4 size 10",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "max core 9 size 12",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'k': 2}",
+      "args": {
+       "graph_id": "karate",
+       "k": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "2-core size 33",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "k",
+     "node"
+    ],
+    "desc_len": 792
+   }
+  }
+ },
+ "k_hop_neighborhood": {
+  "winner": "b2eb4e3d",
+  "ranking": [
+   "b2eb4e3d",
+   "f1f54c61",
+   "3f28ff34",
+   "3c8c3c69",
+   "32016695",
+   "e7c02e9e"
+  ],
+  "implementations": {
+   "32016695": {
+    "path": "..\\tools\\k_hop_neighborhood\\32016695",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1', 'k': 2}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "k": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "25 out / 25 undirected; count 25",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA', 'k': 1}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "k": 1,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "28 out / 28 undirected; count 28",
+      "time": 0.016
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'node': 'CS101', 'k': 2}",
+      "args": {
+       "graph_id": "courses",
+       "node": "CS101",
+       "k": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "6 out / 6 undirected; count 6",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.015645742416381836,
+    "deterministic": false,
+    "options": [
+     "direction",
+     "k",
+     "node"
+    ],
+    "desc_len": 738
+   },
+   "3c8c3c69": {
+    "path": "..\\tools\\k_hop_neighborhood\\3c8c3c69",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1', 'k': 2}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "k": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "25 out / 25 undirected; count 25",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA', 'k': 1}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "k": 1,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "28 out / 28 undirected; count 28",
+      "time": 0.016
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'node': 'CS101', 'k': 2}",
+      "args": {
+       "graph_id": "courses",
+       "node": "CS101",
+       "k": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "6 out / 6 undirected; count 6",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0159761905670166,
+    "deterministic": false,
+    "options": [
+     "direction",
+     "k",
+     "node"
+    ],
+    "desc_len": 750
+   },
+   "3f28ff34": {
+    "path": "..\\tools\\k_hop_neighborhood\\3f28ff34",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1', 'k': 2}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "k": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "25 out / 25 undirected; count 25",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA', 'k': 1}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "k": 1,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "28 out / 28 undirected; count 28",
+      "time": 0.016
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'node': 'CS101', 'k': 2}",
+      "args": {
+       "graph_id": "courses",
+       "node": "CS101",
+       "k": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "6 out / 6 undirected; count 6",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.01570582389831543,
+    "deterministic": true,
+    "options": [
+     "k",
+     "node"
+    ],
+    "desc_len": 693
+   },
+   "b2eb4e3d": {
+    "path": "..\\tools\\k_hop_neighborhood\\b2eb4e3d",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1', 'k': 2}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "k": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "25 out / 25 undirected; count 25",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA', 'k': 1}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "k": 1,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "28 out / 28 undirected; count 28",
+      "time": 0.024
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'node': 'CS101', 'k': 2}",
+      "args": {
+       "graph_id": "courses",
+       "node": "CS101",
+       "k": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "6 out / 6 undirected; count 6",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.023578166961669922,
+    "deterministic": true,
+    "options": [
+     "direction",
+     "k",
+     "node"
+    ],
+    "desc_len": 857
+   },
+   "e7c02e9e": {
+    "path": "..\\tools\\k_hop_neighborhood\\e7c02e9e",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1', 'k': 2}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "k": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "25 out / 25 undirected; count 25",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA', 'k': 1}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "k": 1,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "28 out / 28 undirected; count 28",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'node': 'CS101', 'k': 2}",
+      "args": {
+       "graph_id": "courses",
+       "node": "CS101",
+       "k": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "6 out / 6 undirected; count 6",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": false,
+    "options": [
+     "direction",
+     "k",
+     "node"
+    ],
+    "desc_len": 590
+   },
+   "f1f54c61": {
+    "path": "..\\tools\\k_hop_neighborhood\\f1f54c61",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1', 'k': 2}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "k": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "25 out / 25 undirected; count 26",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA', 'k': 1}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "k": 1,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "28 out / 28 undirected; count 29",
+      "time": 0.016
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'node': 'CS101', 'k': 2}",
+      "args": {
+       "graph_id": "courses",
+       "node": "CS101",
+       "k": 2,
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "6 out / 6 undirected; count 7",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.015972614288330078,
+    "deterministic": true,
+    "options": [
+     "k",
+     "node"
+    ],
+    "desc_len": 833
+   }
+  }
+ },
+ "label_propagation": {
+  "winner": "6ae0e02c",
+  "ranking": [
+   "6ae0e02c",
+   "a018559c",
+   "39bca602",
+   "f1f54c61"
+  ],
+  "implementations": {
+   "39bca602": {
+    "path": "..\\tools\\label_propagation\\39bca602",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 0.527,
+      "note": "modularity 0.1328 (louvain best 0.4198)",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.5566 (louvain best 0.5667)",
+      "time": 0.008
+     }
+    ],
+    "score": 0.7636,
+    "max_time": 0.007509708404541016,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 343
+   },
+   "6ae0e02c": {
+    "path": "..\\tools\\label_propagation\\6ae0e02c",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.2561 (louvain best 0.4198)",
+      "time": 0.01
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4371 (louvain best 0.5667)",
+      "time": 0.006
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.010043621063232422,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 815
+   },
+   "a018559c": {
+    "path": "..\\tools\\label_propagation\\a018559c",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.3600 (louvain best 0.4198)",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.5054 (louvain best 0.5667)",
+      "time": 0.032
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.03235483169555664,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 352
+   },
+   "f1f54c61": {
+    "path": "..\\tools\\label_propagation\\f1f54c61",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "modularity 0.0000 (louvain best 0.4198)",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.5440 (louvain best 0.5667)",
+      "time": 0.016
+     }
+    ],
+    "score": 0.5,
+    "max_time": 0.015834808349609375,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 980
+   }
+  }
+ },
+ "link_prediction": {
+  "winner": "d35c782d",
+  "ranking": [
+   "d35c782d",
+   "eaf1d77a",
+   "92711a92",
+   "41c8e8e2",
+   "37c243f2"
+  ],
+  "implementations": {
+   "37c243f2": {
+    "path": "..\\tools\\link_prediction\\37c243f2",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'method': 'adamic_adar'}",
+      "args": {
+       "graph_id": "karate",
+       "method": "adamic_adar",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10 AA scores match, order True",
+      "time": 0.033
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.033408164978027344,
+    "deterministic": true,
+    "options": [
+     "method"
+    ],
+    "desc_len": 282
+   },
+   "41c8e8e2": {
+    "path": "..\\tools\\link_prediction\\41c8e8e2",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'method': 'adamic_adar'}",
+      "args": {
+       "graph_id": "karate",
+       "method": "adamic_adar",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10 AA scores match, order True",
+      "time": 0.02
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.019890785217285156,
+    "deterministic": true,
+    "options": [
+     "method",
+     "node"
+    ],
+    "desc_len": 579
+   },
+   "92711a92": {
+    "path": "..\\tools\\link_prediction\\92711a92",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'method': 'adamic_adar'}",
+      "args": {
+       "graph_id": "karate",
+       "method": "adamic_adar",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10 AA scores match, order True",
+      "time": 0.012
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.012194395065307617,
+    "deterministic": true,
+    "options": [
+     "method",
+     "node"
+    ],
+    "desc_len": 734
+   },
+   "d35c782d": {
+    "path": "..\\tools\\link_prediction\\d35c782d",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'method': 'adamic_adar'}",
+      "args": {
+       "graph_id": "karate",
+       "method": "adamic_adar",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10 AA scores match, order True",
+      "time": 0.016
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.016185760498046875,
+    "deterministic": true,
+    "options": [
+     "method",
+     "node"
+    ],
+    "desc_len": 1019
+   },
+   "eaf1d77a": {
+    "path": "..\\tools\\link_prediction\\eaf1d77a",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'method': 'adamic_adar'}",
+      "args": {
+       "graph_id": "karate",
+       "method": "adamic_adar",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10 AA scores match, order True",
+      "time": 0.032
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.031954288482666016,
+    "deterministic": true,
+    "options": [
+     "method",
+     "node"
+    ],
+    "desc_len": 863
+   }
+  }
+ },
+ "louvain": {
+  "winner": "e7c02e9e",
+  "ranking": [
+   "e7c02e9e",
+   "f3b11984",
+   "c4576e71",
+   "f28f69d7",
+   "91f2b762",
+   "b2d75536",
+   "f1f54c61"
+  ],
+  "implementations": {
+   "91f2b762": {
+    "path": "..\\tools\\louvain\\91f2b762",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4198 (louvain best 0.4198)",
+      "time": 0.007
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.5667 (louvain best 0.5667)",
+      "time": 0.013
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.013054132461547852,
+    "deterministic": false,
+    "options": [
+     "node",
+     "resolution",
+     "use_weights"
+    ],
+    "desc_len": 753
+   },
+   "b2d75536": {
+    "path": "..\\tools\\louvain\\b2d75536",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4198 (louvain best 0.4198)",
+      "time": 0.012
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 0.998,
+      "note": "modularity 0.5654 (louvain best 0.5667)",
+      "time": 0.0
+     }
+    ],
+    "score": 0.9989,
+    "max_time": 0.011950969696044922,
+    "deterministic": false,
+    "options": [
+     "resolution"
+    ],
+    "desc_len": 958
+   },
+   "c4576e71": {
+    "path": "..\\tools\\louvain\\c4576e71",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4198 (louvain best 0.4198)",
+      "time": 0.017
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.5667 (louvain best 0.5667)",
+      "time": 0.029
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.02906203269958496,
+    "deterministic": true,
+    "options": [
+     "resolution"
+    ],
+    "desc_len": 649
+   },
+   "e7c02e9e": {
+    "path": "..\\tools\\louvain\\e7c02e9e",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4198 (louvain best 0.4198)",
+      "time": 0.016
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.5667 (louvain best 0.5667)",
+      "time": 0.032
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.031954050064086914,
+    "deterministic": true,
+    "options": [
+     "node",
+     "resolution",
+     "use_weights"
+    ],
+    "desc_len": 872
+   },
+   "f1f54c61": {
+    "path": "..\\tools\\louvain\\f1f54c61",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 0.998,
+      "note": "modularity 0.4188 (louvain best 0.4198)",
+      "time": 0.047
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 0.998,
+      "note": "modularity 0.5658 (louvain best 0.5667)",
+      "time": 0.284
+     }
+    ],
+    "score": 0.9981,
+    "max_time": 0.28449153900146484,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 826
+   },
+   "f28f69d7": {
+    "path": "..\\tools\\louvain\\f28f69d7",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4198 (louvain best 0.4198)",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.5667 (louvain best 0.5667)",
+      "time": 0.016
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.01565837860107422,
+    "deterministic": true,
+    "options": [
+     "resolution"
+    ],
+    "desc_len": 489
+   },
+   "f3b11984": {
+    "path": "..\\tools\\louvain\\f3b11984",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.4198 (louvain best 0.4198)",
+      "time": 0.011
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "modularity 0.5667 (louvain best 0.5667)",
+      "time": 0.005
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.011045455932617188,
+    "deterministic": true,
+    "options": [
+     "node",
+     "resolution",
+     "weighted"
+    ],
+    "desc_len": 868
+   }
+  }
+ },
+ "max_flow_min_cut": {
+  "winner": "991d1029",
+  "ranking": [
+   "991d1029",
+   "da50612d",
+   "32016695",
+   "1e59ba80",
+   "edba08e8",
+   "29a7a55d",
+   "3ddaa37e",
+   "5c98c8eb"
+  ],
+  "implementations": {
+   "1e59ba80": {
+    "path": "..\\tools\\max_flow_min_cut\\1e59ba80",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "sink": "m34"
+      },
+      "score": 1.0,
+      "note": "flow 10.0",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'source': 'c74', 'target': 'c26'}",
+      "args": {
+       "graph_id": "lesmis",
+       "source": "c74",
+       "sink": "c26"
+      },
+      "score": 1.0,
+      "note": "flow 19.0",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "sink": "CS401"
+      },
+      "score": 1.0,
+      "note": "flow 2.0",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LHR'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "sink": "LHR"
+      },
+      "score": 1.0,
+      "note": "flow 77906.0",
+      "time": 0.065
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.06537914276123047,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 754
+   },
+   "29a7a55d": {
+    "path": "..\\tools\\max_flow_min_cut\\29a7a55d",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "sink": "m34",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 10.0",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'source': 'c74', 'target': 'c26'}",
+      "args": {
+       "graph_id": "lesmis",
+       "source": "c74",
+       "sink": "c26",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 19.0",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "sink": "CS401",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 2.0",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LHR'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "sink": "LHR",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 77906.0",
+      "time": 0.047
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.046991825103759766,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 559
+   },
+   "32016695": {
+    "path": "..\\tools\\max_flow_min_cut\\32016695",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "sink": "m34",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 10.0",
+      "time": 0.006
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'source': 'c74', 'target': 'c26'}",
+      "args": {
+       "graph_id": "lesmis",
+       "source": "c74",
+       "sink": "c26",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 19.0",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "sink": "CS401",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 2.0",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LHR'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "sink": "LHR",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 77906.0",
+      "time": 0.075
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.07542133331298828,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 828
+   },
+   "3ddaa37e": {
+    "path": "..\\tools\\max_flow_min_cut\\3ddaa37e",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "sink": "m34",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 10.0",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'source': 'c74', 'target': 'c26'}",
+      "args": {
+       "graph_id": "lesmis",
+       "source": "c74",
+       "sink": "c26",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 19.0",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "sink": "CS401",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 2.0",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LHR'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "sink": "LHR",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 77906.0",
+      "time": 0.093
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.09304499626159668,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 406
+   },
+   "5c98c8eb": {
+    "path": "..\\tools\\max_flow_min_cut\\5c98c8eb",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "sink": "m34",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "tool error: Maximum flow requires a directed graph.",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'source': 'c74', 'target': 'c26'}",
+      "args": {
+       "graph_id": "lesmis",
+       "source": "c74",
+       "sink": "c26",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "tool error: Maximum flow requires a directed graph.",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "sink": "CS401",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 2.0",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LHR'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "sink": "LHR",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 77906.0",
+      "time": 0.071
+     }
+    ],
+    "score": 0.5,
+    "max_time": 0.0709841251373291,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 93
+   },
+   "991d1029": {
+    "path": "..\\tools\\max_flow_min_cut\\991d1029",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "sink": "m34",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 10.0",
+      "time": 0.015
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'source': 'c74', 'target': 'c26'}",
+      "args": {
+       "graph_id": "lesmis",
+       "source": "c74",
+       "sink": "c26",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 19.0",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "sink": "CS401",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 2.0",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LHR'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "sink": "LHR",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 77906.0",
+      "time": 0.032
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.03230142593383789,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 960
+   },
+   "da50612d": {
+    "path": "..\\tools\\max_flow_min_cut\\da50612d",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "sink": "m34",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 10.0",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'source': 'c74', 'target': 'c26'}",
+      "args": {
+       "graph_id": "lesmis",
+       "source": "c74",
+       "sink": "c26",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 19.0",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "sink": "CS401",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 2.0",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LHR'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "sink": "LHR",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 77906.0",
+      "time": 0.08
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.08022665977478027,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 889
+   },
+   "edba08e8": {
+    "path": "..\\tools\\max_flow_min_cut\\edba08e8",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "sink": "m34",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 10.0",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'source': 'c74', 'target': 'c26'}",
+      "args": {
+       "graph_id": "lesmis",
+       "source": "c74",
+       "sink": "c26",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 19.0",
+      "time": 0.007
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "sink": "CS401",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 2.0",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LHR'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "sink": "LHR",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "flow 77906.0",
+      "time": 0.041
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.04129648208618164,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 740
+   }
+  }
+ },
+ "maximal_cliques": {
+  "winner": "6e31812a",
+  "ranking": [
+   "6e31812a",
+   "6ae0e02c",
+   "62a230f4",
+   "92711a92",
+   "a20d8c29",
+   "a018559c",
+   "7065a2b5",
+   "ab9fb3a3"
+  ],
+  "implementations": {
+   "62a230f4": {
+    "path": "..\\tools\\maximal_cliques\\62a230f4",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "36 cliques, max 5",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "59 cliques, max 10",
+      "time": 0.03
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.03017425537109375,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 378
+   },
+   "6ae0e02c": {
+    "path": "..\\tools\\maximal_cliques\\6ae0e02c",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "36 cliques, max 5",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "59 cliques, max 10",
+      "time": 0.036
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.036305904388427734,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 734
+   },
+   "6e31812a": {
+    "path": "..\\tools\\maximal_cliques\\6e31812a",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "36 cliques, max 5",
+      "time": 0.016
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "59 cliques, max 10",
+      "time": 0.032
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.03158974647521973,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 820
+   },
+   "7065a2b5": {
+    "path": "..\\tools\\maximal_cliques\\7065a2b5",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 0.5,
+      "note": "36 cliques, max 5",
+      "time": 0.003
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 0.5,
+      "note": "59 cliques, max 10",
+      "time": 0.063
+     }
+    ],
+    "score": 0.5,
+    "max_time": 0.06316900253295898,
+    "deterministic": false,
+    "options": [
+     "node"
+    ],
+    "desc_len": 814
+   },
+   "92711a92": {
+    "path": "..\\tools\\maximal_cliques\\92711a92",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 0.5,
+      "note": "36 cliques, max 5",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 0.5,
+      "note": "59 cliques, max 10",
+      "time": 0.047
+     }
+    ],
+    "score": 0.5,
+    "max_time": 0.0469813346862793,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 736
+   },
+   "a018559c": {
+    "path": "..\\tools\\maximal_cliques\\a018559c",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 0.5,
+      "note": "36 cliques, max 5",
+      "time": 0.027
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 0.5,
+      "note": "59 cliques, max 10",
+      "time": 0.034
+     }
+    ],
+    "score": 0.5,
+    "max_time": 0.03373003005981445,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 308
+   },
+   "a20d8c29": {
+    "path": "..\\tools\\maximal_cliques\\a20d8c29",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 0.5,
+      "note": "36 cliques, max 5",
+      "time": 0.007
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 0.5,
+      "note": "59 cliques, max 10",
+      "time": 0.048
+     }
+    ],
+    "score": 0.5,
+    "max_time": 0.047606706619262695,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 765
+   },
+   "ab9fb3a3": {
+    "path": "..\\tools\\maximal_cliques\\ab9fb3a3",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "tool error: Cliques exceed the 8 KB output limit. Reduce top_k or analyse a smaller subgraph.",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "tool error: Cliques exceed the 8 KB output limit. Reduce top_k or analyse a smaller subgraph.",
+      "time": 0.0
+     }
+    ],
+    "score": 0.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 541
+   }
+  }
+ },
+ "minimum_spanning_tree": {
+  "winner": "b2eb4e3d",
+  "ranking": [
+   "b2eb4e3d",
+   "3ddaa37e",
+   "5c98c8eb",
+   "edba08e8",
+   "96e40bd2"
+  ],
+  "implementations": {
+   "3ddaa37e": {
+    "path": "..\\tools\\minimum_spanning_tree\\3ddaa37e",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "total 33.0",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "total 105.0",
+      "time": 0.016
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "tool error: A spanning tree requires an undirected graph. Select an undirected graph.",
+      "time": 0.0
+     }
+    ],
+    "score": 0.6667,
+    "max_time": 0.015674591064453125,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 357
+   },
+   "5c98c8eb": {
+    "path": "..\\tools\\minimum_spanning_tree\\5c98c8eb",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "total 33.0",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "total 105.0",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "tool error: Minimum spanning trees require an undirected graph. Choose an undirected graph such as 'karate' or 'lesmis'.",
+      "time": 0.0
+     }
+    ],
+    "score": 0.6667,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 326
+   },
+   "96e40bd2": {
+    "path": "..\\tools\\minimum_spanning_tree\\96e40bd2",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "total 33.0",
+      "time": 0.012
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "total 105.0",
+      "time": 0.005
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "tool error: Graph 'airports' is directed, but a minimum spanning tree needs an undirected graph. Use list_graphs to find an undirected graph (for example 'lesmis'",
+      "time": 0.0
+     }
+    ],
+    "score": 0.0,
+    "max_time": 0.011634349822998047,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 776
+   },
+   "b2eb4e3d": {
+    "path": "..\\tools\\minimum_spanning_tree\\b2eb4e3d",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "total 33.0",
+      "time": 0.016
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "total 105.0",
+      "time": 0.016
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "total 237959.0",
+      "time": 0.112
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.11156415939331055,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 876
+   },
+   "edba08e8": {
+    "path": "..\\tools\\minimum_spanning_tree\\edba08e8",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "total 33.0",
+      "time": 0.016
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "total 105.0",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "tool error: Graph 'airports' is directed, and a minimum spanning tree is only defined for undirected graphs. Use an undirected graph such as 'lesmis' or 'karate'.",
+      "time": 0.0
+     }
+    ],
+    "score": 0.6667,
+    "max_time": 0.015658855438232422,
+    "deterministic": false,
+    "options": [],
+    "desc_len": 631
+   }
+  }
+ },
+ "motif_count": {
+  "winner": "63fb3e40",
+  "ranking": [
+   "63fb3e40",
+   "e1e14ad1",
+   "51616f3b",
+   "ae9bcafc",
+   "37c243f2",
+   "7cc0c2d7",
+   "eaf1d77a",
+   "81c01533"
+  ],
+  "implementations": {
+   "37c243f2": {
+    "path": "..\\tools\\motif_count\\37c243f2",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "triangles 45",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "triangles 467",
+      "time": 0.023
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.022784709930419922,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 276
+   },
+   "51616f3b": {
+    "path": "..\\tools\\motif_count\\51616f3b",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "triangles 45",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis"
+      },
+      "score": 1.0,
+      "note": "triangles 467",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 505
+   },
+   "63fb3e40": {
+    "path": "..\\tools\\motif_count\\63fb3e40",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "triangles 45",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "triangles 467",
+      "time": 0.012
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.011951208114624023,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 883
+   },
+   "7cc0c2d7": {
+    "path": "..\\tools\\motif_count\\7cc0c2d7",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 0.0,
+      "note": "triangles 45",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis"
+      },
+      "score": 1.0,
+      "note": "triangles 467",
+      "time": 0.0
+     }
+    ],
+    "score": 0.5,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 221
+   },
+   "81c01533": {
+    "path": "..\\tools\\motif_count\\81c01533",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "triangles 45",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "triangles 467",
+      "time": 0.006
+     }
+    ],
+    "score": 0.0,
+    "max_time": 0.005559444427490234,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 684
+   },
+   "ae9bcafc": {
+    "path": "..\\tools\\motif_count\\ae9bcafc",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "triangles 45",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis"
+      },
+      "score": 1.0,
+      "note": "triangles 467",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 327
+   },
+   "e1e14ad1": {
+    "path": "..\\tools\\motif_count\\e1e14ad1",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "triangles 45",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "triangles 467",
+      "time": 0.012
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.012260913848876953,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 854
+   },
+   "eaf1d77a": {
+    "path": "..\\tools\\motif_count\\eaf1d77a",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "triangles 45",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 0.0,
+      "note": "triangles 467",
+      "time": 0.009
+     }
+    ],
+    "score": 0.0,
+    "max_time": 0.00860285758972168,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 716
+   }
+  }
+ },
+ "node_embedding_similarity": {
+  "winner": "b2eb4e3d",
+  "ranking": [
+   "b2eb4e3d",
+   "96e40bd2",
+   "7780ae37",
+   "41c8e8e2",
+   "39bca602",
+   "4ebce3f0",
+   "efd53284"
+  ],
+  "implementations": {
+   "39bca602": {
+    "path": "..\\tools\\node_embedding_similarity\\39bca602",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "100% of top 10 are neighbours",
+      "time": 0.01
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA'}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "90% of top 10 are neighbours",
+      "time": 1.413
+     }
+    ],
+    "score": 1.0,
+    "max_time": 1.4128119945526123,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 312
+   },
+   "41c8e8e2": {
+    "path": "..\\tools\\node_embedding_similarity\\41c8e8e2",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "100% of top 10 are neighbours",
+      "time": 0.016
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA'}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "100% of top 10 are neighbours",
+      "time": 1.374
+     }
+    ],
+    "score": 1.0,
+    "max_time": 1.373798131942749,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 575
+   },
+   "4ebce3f0": {
+    "path": "..\\tools\\node_embedding_similarity\\4ebce3f0",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "90% of top 10 are neighbours",
+      "time": 0.995
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA'}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "80% of top 10 are neighbours",
+      "time": 16.738
+     }
+    ],
+    "score": 1.0,
+    "max_time": 16.738465309143066,
+    "deterministic": true,
+    "options": [
+     "node",
+     "target"
+    ],
+    "desc_len": 847
+   },
+   "7780ae37": {
+    "path": "..\\tools\\node_embedding_similarity\\7780ae37",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "100% of top 10 are neighbours",
+      "time": 0.078
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA'}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "100% of top 10 are neighbours",
+      "time": 2.602
+     }
+    ],
+    "score": 1.0,
+    "max_time": 2.60245418548584,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 616
+   },
+   "96e40bd2": {
+    "path": "..\\tools\\node_embedding_similarity\\96e40bd2",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "90% of top 10 are neighbours",
+      "time": 0.016
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA'}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "80% of top 10 are neighbours",
+      "time": 1.181
+     }
+    ],
+    "score": 1.0,
+    "max_time": 1.181288242340088,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 805
+   },
+   "b2eb4e3d": {
+    "path": "..\\tools\\node_embedding_similarity\\b2eb4e3d",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "90% of top 10 are neighbours",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA'}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "90% of top 10 are neighbours",
+      "time": 0.654
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.6537203788757324,
+    "deterministic": true,
+    "options": [
+     "node",
+     "use_weights"
+    ],
+    "desc_len": 893
+   },
+   "efd53284": {
+    "path": "..\\tools\\node_embedding_similarity\\efd53284",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "90% of top 10 are neighbours",
+      "time": 0.093
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'node': 'MAA'}",
+      "args": {
+       "graph_id": "airports",
+       "node": "MAA",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "90% of top 10 are neighbours",
+      "time": 7.157
+     }
+    ],
+    "score": 1.0,
+    "max_time": 7.157376766204834,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 882
+   }
+  }
+ },
+ "node_similarity": {
+  "winner": "39bca602",
+  "ranking": [
+   "39bca602",
+   "eaf1d77a",
+   "ab9fb3a3",
+   "d69742a9",
+   "29a7a55d",
+   "81c01533"
+  ],
+  "implementations": {
+   "29a7a55d": {
+    "path": "..\\tools\\node_similarity\\29a7a55d",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm2'}",
+      "args": {
+       "graph_id": "karate",
+       "node_a": "m1",
+       "node_b": "m2"
+      },
+      "score": 1.0,
+      "note": "jaccard 0.388889 common 7",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'JFK', 'target': 'LAX'}",
+      "args": {
+       "graph_id": "airports",
+       "node_a": "JFK",
+       "node_b": "LAX"
+      },
+      "score": 1.0,
+      "note": "jaccard 0.463415 common 76",
+      "time": 0.002
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0018100738525390625,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 525
+   },
+   "39bca602": {
+    "path": "..\\tools\\node_similarity\\39bca602",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm2'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "target_node": "m2",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "jaccard 0.388889 common 7",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'JFK', 'target': 'LAX'}",
+      "args": {
+       "graph_id": "airports",
+       "node": "JFK",
+       "target_node": "LAX",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "jaccard 0.463415 common 76",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "direction",
+     "node"
+    ],
+    "desc_len": 368
+   },
+   "81c01533": {
+    "path": "..\\tools\\node_similarity\\81c01533",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm2'}",
+      "args": {
+       "graph_id": "karate",
+       "node1": "m1",
+       "node2": "m2"
+      },
+      "score": 1.0,
+      "note": "jaccard 0.388889 common 7",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'JFK', 'target': 'LAX'}",
+      "args": {
+       "graph_id": "airports",
+       "node1": "JFK",
+       "node2": "LAX"
+      },
+      "score": 1.0,
+      "note": "jaccard 0.463415 common 76",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 430
+   },
+   "ab9fb3a3": {
+    "path": "..\\tools\\node_similarity\\ab9fb3a3",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm2'}",
+      "args": {
+       "graph_id": "karate",
+       "node_a": "m1",
+       "node_b": "m2",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "jaccard 0.388889 common 7",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'JFK', 'target': 'LAX'}",
+      "args": {
+       "graph_id": "airports",
+       "node_a": "JFK",
+       "node_b": "LAX",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "jaccard 0.463415 common 76",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "direction"
+    ],
+    "desc_len": 454
+   },
+   "d69742a9": {
+    "path": "..\\tools\\node_similarity\\d69742a9",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm2'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "other": "m2"
+      },
+      "score": 1.0,
+      "note": "jaccard 0.388889 common 7",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'JFK', 'target': 'LAX'}",
+      "args": {
+       "graph_id": "airports",
+       "node": "JFK",
+       "other": "LAX"
+      },
+      "score": 1.0,
+      "note": "jaccard 0.463415 common 76",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 380
+   },
+   "eaf1d77a": {
+    "path": "..\\tools\\node_similarity\\eaf1d77a",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm2'}",
+      "args": {
+       "graph_id": "karate",
+       "node_a": "m1",
+       "node_b": "m2",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "jaccard 0.388889 common 7",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'JFK', 'target': 'LAX'}",
+      "args": {
+       "graph_id": "airports",
+       "node_a": "JFK",
+       "node_b": "LAX",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "jaccard 0.463415 common 76",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "direction"
+    ],
+    "desc_len": 830
+   }
+  }
+ },
+ "pagerank": {
+  "winner": "da50612d",
+  "ranking": [
+   "da50612d",
+   "f3b11984",
+   "29a7a55d"
+  ],
+  "implementations": {
+   "29a7a55d": {
+    "path": "..\\tools\\pagerank\\29a7a55d",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.047
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.047351837158203125,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 506
+   },
+   "da50612d": {
+    "path": "..\\tools\\pagerank\\da50612d",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.015
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.03
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.03004932403564453,
+    "deterministic": true,
+    "options": [
+     "weighted"
+    ],
+    "desc_len": 655
+   },
+   "f3b11984": {
+    "path": "..\\tools\\pagerank\\f3b11984",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis'}",
+      "args": {
+       "graph_id": "lesmis",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.014
+     },
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.058
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.058310508728027344,
+    "deterministic": true,
+    "options": [
+     "weighted"
+    ],
+    "desc_len": 596
+   }
+  }
+ },
+ "personalized_pagerank": {
+  "winner": "e7c02e9e",
+  "ranking": [
+   "e7c02e9e",
+   "e1e14ad1",
+   "c52598eb",
+   "81c01533"
+  ],
+  "implementations": {
+   "81c01533": {
+    "path": "..\\tools\\personalized_pagerank\\81c01533",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "seed_node": "m1",
+       "top_k": 100
+      },
+      "score": 0.35,
+      "note": "7/10 scores match, order WRONG",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'node': 'CS101'}",
+      "args": {
+       "graph_id": "courses",
+       "seed_node": "CS101",
+       "top_k": 100
+      },
+      "score": 0.35,
+      "note": "7/10 scores match, order WRONG",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'node': 'c74'}",
+      "args": {
+       "graph_id": "lesmis",
+       "seed_node": "c74",
+       "top_k": 100
+      },
+      "score": 0.35,
+      "note": "7/10 scores match, order WRONG",
+      "time": 0.026
+     }
+    ],
+    "score": 0.35,
+    "max_time": 0.026125669479370117,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 555
+   },
+   "c52598eb": {
+    "path": "..\\tools\\personalized_pagerank\\c52598eb",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'node': 'CS101'}",
+      "args": {
+       "graph_id": "courses",
+       "node": "CS101",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'node': 'c74'}",
+      "args": {
+       "graph_id": "lesmis",
+       "node": "c74",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.016
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.015893220901489258,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 643
+   },
+   "e1e14ad1": {
+    "path": "..\\tools\\personalized_pagerank\\e1e14ad1",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.004
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'node': 'CS101'}",
+      "args": {
+       "graph_id": "courses",
+       "node": "CS101",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.004
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'node': 'c74'}",
+      "args": {
+       "graph_id": "lesmis",
+       "node": "c74",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok (unweighted)",
+      "time": 0.003
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.004183530807495117,
+    "deterministic": true,
+    "options": [
+     "node",
+     "use_weights"
+    ],
+    "desc_len": 814
+   },
+   "e7c02e9e": {
+    "path": "..\\tools\\personalized_pagerank\\e7c02e9e",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'node': 'm1'}",
+      "args": {
+       "graph_id": "karate",
+       "node": "m1",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.009
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'node': 'CS101'}",
+      "args": {
+       "graph_id": "courses",
+       "node": "CS101",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.0
+     },
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'node': 'c74'}",
+      "args": {
+       "graph_id": "lesmis",
+       "node": "c74",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "10/10 scores match, order ok",
+      "time": 0.016
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.015741825103759766,
+    "deterministic": true,
+    "options": [
+     "node",
+     "seeds",
+     "use_weights"
+    ],
+    "desc_len": 560
+   }
+  }
+ },
+ "reachability": {
+  "winner": "fcd76f91",
+  "ranking": [
+   "fcd76f91",
+   "92711a92",
+   "91f2b762",
+   "7780ae37",
+   "f6f61ae0",
+   "7cc0c2d7"
+  ],
+  "implementations": {
+   "7780ae37": {
+    "path": "..\\tools\\reachability\\7780ae37",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "target": "CS401"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS401', 'target': 'CS101'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS401",
+       "target": "CS101"
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "target": "m34"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LIS'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "LIS"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "target"
+    ],
+    "desc_len": 473
+   },
+   "7cc0c2d7": {
+    "path": "..\\tools\\reachability\\7cc0c2d7",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "target": "CS401"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS401', 'target': 'CS101'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS401",
+       "target": "CS101"
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "target": "m34"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LIS'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "LIS"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "target"
+    ],
+    "desc_len": 124
+   },
+   "91f2b762": {
+    "path": "..\\tools\\reachability\\91f2b762",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "target": "CS401"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS401', 'target': 'CS101'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS401",
+       "target": "CS101"
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "target": "m34"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LIS'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "LIS"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "target"
+    ],
+    "desc_len": 594
+   },
+   "92711a92": {
+    "path": "..\\tools\\reachability\\92711a92",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "target": "CS401"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS401', 'target': 'CS101'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS401",
+       "target": "CS101"
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "target": "m34"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LIS'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "LIS"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "target"
+    ],
+    "desc_len": 611
+   },
+   "f6f61ae0": {
+    "path": "..\\tools\\reachability\\f6f61ae0",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "target": "CS401"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS401', 'target': 'CS101'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS401",
+       "target": "CS101"
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "target": "m34"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LIS'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "LIS"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "target"
+    ],
+    "desc_len": 345
+   },
+   "fcd76f91": {
+    "path": "..\\tools\\reachability\\fcd76f91",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "target": "CS401"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS401', 'target': 'CS101'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS401",
+       "target": "CS101"
+      },
+      "score": 1.0,
+      "note": "truth False",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "target": "m34"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LIS'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "LIS"
+      },
+      "score": 1.0,
+      "note": "truth True",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "target"
+    ],
+    "desc_len": 688
+   }
+  }
+ },
+ "shortest_path_unweighted": {
+  "winner": "96e40bd2",
+  "ranking": [
+   "96e40bd2",
+   "edba08e8",
+   "8809b513",
+   "f28f69d7",
+   "ae9bcafc",
+   "8f0a9ac4"
+  ],
+  "implementations": {
+   "8809b513": {
+    "path": "..\\tools\\shortest_path_unweighted\\8809b513",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "target": "m34"
+      },
+      "score": 1.0,
+      "note": "hops 2, got 2",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "target": "CS401"
+      },
+      "score": 1.0,
+      "note": "hops 3, got 3",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LIS'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "LIS"
+      },
+      "score": 1.0,
+      "note": "hops 2, got 2",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'SCL'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "SCL"
+      },
+      "score": 1.0,
+      "note": "hops 3, got 3",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS401', 'target': 'CS101'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS401",
+       "target": "CS101"
+      },
+      "score": 1.0,
+      "note": "no path",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "target"
+    ],
+    "desc_len": 457
+   },
+   "8f0a9ac4": {
+    "path": "..\\tools\\shortest_path_unweighted\\8f0a9ac4",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "src": "m1",
+       "dest": "m34"
+      },
+      "score": 1.0,
+      "note": "hops 2, got 2",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "src": "CS101",
+       "dest": "CS401"
+      },
+      "score": 1.0,
+      "note": "hops 3, got 3",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LIS'}",
+      "args": {
+       "graph_id": "airports",
+       "src": "MAA",
+       "dest": "LIS"
+      },
+      "score": 1.0,
+      "note": "hops 2, got 2",
+      "time": 0.052
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'SCL'}",
+      "args": {
+       "graph_id": "airports",
+       "src": "MAA",
+       "dest": "SCL"
+      },
+      "score": 1.0,
+      "note": "hops 3, got 3",
+      "time": 0.154
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS401', 'target': 'CS101'}",
+      "args": {
+       "graph_id": "courses",
+       "src": "CS401",
+       "dest": "CS101"
+      },
+      "score": 1.0,
+      "note": "no path",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.15358757972717285,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 124
+   },
+   "96e40bd2": {
+    "path": "..\\tools\\shortest_path_unweighted\\96e40bd2",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "target": "m34"
+      },
+      "score": 1.0,
+      "note": "hops 2, got 2",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "target": "CS401"
+      },
+      "score": 1.0,
+      "note": "hops 3, got 3",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LIS'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "LIS"
+      },
+      "score": 1.0,
+      "note": "hops 2, got 2",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'SCL'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "SCL"
+      },
+      "score": 1.0,
+      "note": "hops 3, got 3",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS401', 'target': 'CS101'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS401",
+       "target": "CS101"
+      },
+      "score": 1.0,
+      "note": "no path",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "target"
+    ],
+    "desc_len": 696
+   },
+   "ae9bcafc": {
+    "path": "..\\tools\\shortest_path_unweighted\\ae9bcafc",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "target": "m34"
+      },
+      "score": 1.0,
+      "note": "hops 2, got 2",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "target": "CS401"
+      },
+      "score": 1.0,
+      "note": "hops 3, got 3",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LIS'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "LIS"
+      },
+      "score": 1.0,
+      "note": "hops 2, got 2",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'SCL'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "SCL"
+      },
+      "score": 1.0,
+      "note": "hops 3, got 3",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS401', 'target': 'CS101'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS401",
+       "target": "CS101"
+      },
+      "score": 1.0,
+      "note": "no path",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "target"
+    ],
+    "desc_len": 285
+   },
+   "edba08e8": {
+    "path": "..\\tools\\shortest_path_unweighted\\edba08e8",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "target": "m34"
+      },
+      "score": 1.0,
+      "note": "hops 2, got 2",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "target": "CS401"
+      },
+      "score": 1.0,
+      "note": "hops 3, got 3",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LIS'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "LIS"
+      },
+      "score": 1.0,
+      "note": "hops 2, got 2",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'SCL'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "SCL"
+      },
+      "score": 1.0,
+      "note": "hops 3, got 3",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS401', 'target': 'CS101'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS401",
+       "target": "CS101"
+      },
+      "score": 1.0,
+      "note": "no path",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "target"
+    ],
+    "desc_len": 477
+   },
+   "f28f69d7": {
+    "path": "..\\tools\\shortest_path_unweighted\\f28f69d7",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "target": "m34"
+      },
+      "score": 1.0,
+      "note": "hops 2, got 2",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS101', 'target': 'CS401'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS101",
+       "target": "CS401"
+      },
+      "score": 1.0,
+      "note": "hops 3, got 3",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LIS'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "LIS"
+      },
+      "score": 1.0,
+      "note": "hops 2, got 2",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'SCL'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "SCL"
+      },
+      "score": 1.0,
+      "note": "hops 3, got 3",
+      "time": 0.0
+     },
+     {
+      "case": "courses {'graph_id': 'courses', 'source': 'CS401', 'target': 'CS101'}",
+      "args": {
+       "graph_id": "courses",
+       "source": "CS401",
+       "target": "CS101"
+      },
+      "score": 1.0,
+      "note": "no path",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [
+     "target"
+    ],
+    "desc_len": 364
+   }
+  }
+ },
+ "shortest_path_weighted": {
+  "winner": "32016695",
+  "ranking": [
+   "32016695",
+   "91f2b762",
+   "c4576e71",
+   "f897d4c5"
+  ],
+  "implementations": {
+   "32016695": {
+    "path": "..\\tools\\shortest_path_weighted\\32016695",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'source': 'c74', 'target': 'c01'}",
+      "args": {
+       "graph_id": "lesmis",
+       "source": "c74",
+       "target": "c01"
+      },
+      "score": 1.0,
+      "note": "dist 3.0",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LIS'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "LIS"
+      },
+      "score": 1.0,
+      "note": "dist 9071.0",
+      "time": 0.024
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'SCL'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "SCL"
+      },
+      "score": 1.0,
+      "note": "dist 17453.0",
+      "time": 0.024
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "target": "m34"
+      },
+      "score": 1.0,
+      "note": "dist 2.0",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.024335145950317383,
+    "deterministic": true,
+    "options": [
+     "target"
+    ],
+    "desc_len": 829
+   },
+   "91f2b762": {
+    "path": "..\\tools\\shortest_path_weighted\\91f2b762",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'source': 'c74', 'target': 'c01'}",
+      "args": {
+       "graph_id": "lesmis",
+       "source": "c74",
+       "target": "c01"
+      },
+      "score": 1.0,
+      "note": "dist 3.0",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LIS'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "LIS"
+      },
+      "score": 1.0,
+      "note": "dist 9071.0",
+      "time": 0.032
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'SCL'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "SCL"
+      },
+      "score": 1.0,
+      "note": "dist 17453.0",
+      "time": 0.016
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "target": "m34"
+      },
+      "score": 1.0,
+      "note": "dist 2.0",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.03190898895263672,
+    "deterministic": true,
+    "options": [
+     "target"
+    ],
+    "desc_len": 670
+   },
+   "c4576e71": {
+    "path": "..\\tools\\shortest_path_weighted\\c4576e71",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'source': 'c74', 'target': 'c01'}",
+      "args": {
+       "graph_id": "lesmis",
+       "source": "c74",
+       "target": "c01"
+      },
+      "score": 1.0,
+      "note": "dist 3.0",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LIS'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "LIS"
+      },
+      "score": 1.0,
+      "note": "dist 9071.0",
+      "time": 0.033
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'SCL'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "SCL"
+      },
+      "score": 1.0,
+      "note": "dist 17453.0",
+      "time": 0.03
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "target": "m34"
+      },
+      "score": 1.0,
+      "note": "dist 2.0",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.03251218795776367,
+    "deterministic": true,
+    "options": [
+     "target"
+    ],
+    "desc_len": 598
+   },
+   "f897d4c5": {
+    "path": "..\\tools\\shortest_path_weighted\\f897d4c5",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "lesmis {'graph_id': 'lesmis', 'source': 'c74', 'target': 'c01'}",
+      "args": {
+       "graph_id": "lesmis",
+       "source": "c74",
+       "target": "c01"
+      },
+      "score": 1.0,
+      "note": "dist 3.0",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'LIS'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "LIS"
+      },
+      "score": 1.0,
+      "note": "dist 9071.0",
+      "time": 0.063
+     },
+     {
+      "case": "airports {'graph_id': 'airports', 'source': 'MAA', 'target': 'SCL'}",
+      "args": {
+       "graph_id": "airports",
+       "source": "MAA",
+       "target": "SCL"
+      },
+      "score": 1.0,
+      "note": "dist 17453.0",
+      "time": 0.063
+     },
+     {
+      "case": "karate {'graph_id': 'karate', 'source': 'm1', 'target': 'm34'}",
+      "args": {
+       "graph_id": "karate",
+       "source": "m1",
+       "target": "m34"
+      },
+      "score": 1.0,
+      "note": "dist 2.0",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.06344318389892578,
+    "deterministic": true,
+    "options": [
+     "target"
+    ],
+    "desc_len": 77
+   }
+  }
+ },
+ "strongly_connected_components": {
+  "winner": "fcd76f91",
+  "ranking": [
+   "fcd76f91",
+   "e2346c64",
+   "80ae2fd8",
+   "2f7893e5"
+  ],
+  "implementations": {
+   "2f7893e5": {
+    "path": "..\\tools\\strongly_connected_components\\2f7893e5",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 21 vs 21",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1",
+      "time": 0.198
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.19765496253967285,
+    "deterministic": false,
+    "options": [
+     "node"
+    ],
+    "desc_len": 881
+   },
+   "80ae2fd8": {
+    "path": "..\\tools\\strongly_connected_components\\80ae2fd8",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 21 vs 21",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1",
+      "time": 0.014
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.013811588287353516,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 148
+   },
+   "e2346c64": {
+    "path": "..\\tools\\strongly_connected_components\\e2346c64",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 21 vs 21",
+      "time": 0.0
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1",
+      "time": 0.231
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.2310175895690918,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 700
+   },
+   "fcd76f91": {
+    "path": "..\\tools\\strongly_connected_components\\fcd76f91",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 21 vs 21",
+      "time": 0.006
+     },
+     {
+      "case": "airports {'graph_id': 'airports'}",
+      "args": {
+       "graph_id": "airports",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "count 1 vs 1",
+      "time": 0.22
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.22024774551391602,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 813
+   }
+  }
+ },
+ "topological_sort": {
+  "winner": "63fb3e40",
+  "ranking": [
+   "63fb3e40",
+   "c7c2ef65",
+   "1e59ba80",
+   "efd53284",
+   "c1fb2ea9"
+  ],
+  "implementations": {
+   "1e59ba80": {
+    "path": "..\\tools\\topological_sort\\1e59ba80",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses"
+      },
+      "score": 1.0,
+      "note": "valid order",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "undirected / cyclic",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 731
+   },
+   "63fb3e40": {
+    "path": "..\\tools\\topological_sort\\63fb3e40",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "valid order",
+      "time": 0.001
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate",
+       "top_k": 100
+      },
+      "score": 1.0,
+      "note": "undirected / cyclic",
+      "time": 0.001
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.001138925552368164,
+    "deterministic": true,
+    "options": [
+     "node"
+    ],
+    "desc_len": 718
+   },
+   "c1fb2ea9": {
+    "path": "..\\tools\\topological_sort\\c1fb2ea9",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses"
+      },
+      "score": 1.0,
+      "note": "valid order",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "undirected / cyclic",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 421
+   },
+   "c7c2ef65": {
+    "path": "..\\tools\\topological_sort\\c7c2ef65",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses"
+      },
+      "score": 1.0,
+      "note": "valid order",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "undirected / cyclic",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 829
+   },
+   "efd53284": {
+    "path": "..\\tools\\topological_sort\\efd53284",
+    "validator_errors": [],
+    "cases": [
+     {
+      "case": "courses {'graph_id': 'courses'}",
+      "args": {
+       "graph_id": "courses"
+      },
+      "score": 1.0,
+      "note": "valid order",
+      "time": 0.0
+     },
+     {
+      "case": "karate {'graph_id': 'karate'}",
+      "args": {
+       "graph_id": "karate"
+      },
+      "score": 1.0,
+      "note": "undirected / cyclic",
+      "time": 0.0
+     }
+    ],
+    "score": 1.0,
+    "max_time": 0.0,
+    "deterministic": true,
+    "options": [],
+    "desc_len": 658
+   }
+  }
+ }
+}
